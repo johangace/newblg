@@ -1,6 +1,6 @@
 .post {
-    padding: 30px 0;
-    margin: 30px 0;
+    // padding: 30px 0;
+    // margin: 30px 0;
 
     .head {
         text-align: right;
@@ -11,9 +11,11 @@
     }
 
     .content {
-        justify-content: center;
-        margin-top: 80px;
-        padding: 0 40px;
+        // width: 80%;
+        display: grid;
+        place-items: center;
+        grid-template-columns: auto auto;
+        margin: 50px auto;
 
         p,
         h2,
@@ -24,6 +26,30 @@
             margin: 40px 0;
             line-height: 190%;
             word-spacing: 2px;
+        }
+
+        .header {
+            padding: 20px;
+            margin-right: 15px;
+            text-align: center;
+            margin: 0 auto;
+            p {
+                margin: 10px auto 20px auto;
+            }
+            h1 {
+                font-weight: 600;
+            }
+            h4 {
+                font-size: 2rem;
+                font-weight: 500;
+                margin: 0 auto;
+                color: #f2a602;
+            }
+
+            img {
+                width: 65px;
+                // margin: 10px auto;
+            }
         }
 
         .gatsby-resp-image-wrapper {
@@ -48,12 +74,21 @@
                 margin: 0;
             }
         }
+
+        .about {
+            margin-top: 100px;
+        }
     }
 
-    .center .img {
-        width: 400px;
-        max-width: 80%;
-        margin: 0 auto;
+    .right {
+        // width: 100%;
+        width: 52vh;
+
+        // overflow: hidden;
+        // object-fit: fill;
+        opacity: 0.95;
+        margin-left: auto;
+        filter: brightness(80%);
     }
 }
 
@@ -61,6 +96,16 @@
     .blog-post {
         .content {
             padding: 0 10px;
+        }
+    }
+    .post {
+        .right {
+            height: 82vh;
+            width: 64vh;
+            overflow: unset;
+            opacity: 0.95;
+
+            filter: brightness(82%);
         }
     }
 }

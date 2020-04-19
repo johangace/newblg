@@ -1,8 +1,8 @@
 let siteMetadata = {
     title: `Johan Gace.`,
     capitalizeTitleOnHome: true,
-    logo: `/images/logos.png`,
-    icon: `/images/icon.png`,
+    logo: `/images/log.png`,
+    icon: `/images/log.png`,
     titleImage: `/images/wall.jpg`,
     introTag: `Web Developer`,
     description: `I Love to Design and Make things.`,
@@ -27,11 +27,11 @@ let siteMetadata = {
         {
             name: "PORTFOLIO",
             url: "/portfolio"
-        },
-        {
-            name: "CONTACT",
-            url: "/contact"
         }
+        // {
+        //     name: "CONTACT",
+        //     url: "/contact"
+        // }
     ],
     footerLinks: [
         // {
@@ -40,24 +40,35 @@ let siteMetadata = {
         // },
         {
             name: "GitHub",
-            url: "https://github.com/akzhy/gatsby-starter-elemental"
+            url: "https://github.com/johangace"
         }
     ],
     social: [
         {
             name: "Twitter",
             icon: "/images/Twitter.svg",
-            url: "#"
+            url: "https://twitter.com/JohanGace"
         },
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "#"
+            url: "https://www.instagram.com/instagace/"
         },
         {
-            name: "Youtube",
-            icon: "/images/Youtube.svg",
-            url: "#"
+            name: "GitHub",
+            icon: "/images/github.png",
+            url: "https://github.com/johangace"
+        },
+        // {
+        //     name: "Youtube",
+        //     icon: "/images/Youtube.svg",
+        //     url:
+        //         "https://www.youtube.com/channel/UCJ6-4OCJiUpzd56aF6-k6ag?view_as=subscriber"
+        // },
+        {
+            name: "Goodreads",
+            icon: "/images/goodreads.png",
+            url: "https://www.goodreads.com/user/show/33277000-johan"
         }
     ],
     contact: {

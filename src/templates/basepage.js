@@ -14,13 +14,36 @@ export default function({ data }) {
                 description={data.markdownRemark.frontmatter.description}
             />
             <div className="container">
-                <article className="post">
+                <article className="post ">
                     <div className="head text-primary">
-                        <h1>{data.markdownRemark.frontmatter.title}</h1>
+                        {/* <h1>{data.markdownRemark.frontmatter.title}</h1> */}
                     </div>
-                    <div className="content row flex">
+                    {/* <div className="content row flex"> */}
+                    <div className="content ">
+                        <div className="header">
+                            <h1 className="say-hi"> Say Hi. </h1>
+                            <p> I would love to learn about your projects.</p>
+
+                            <a href="mailto:hello@johangace.com?">
+                                <h4> hello@johangace.com</h4>
+                            </a>
+                            <a href="mailto:hello@johangace.com?">
+                                <img
+                                    className="envelope"
+                                    src="images/mail.svg"
+                                />
+                            </a>
+
+                            <div
+                                className="col s12 m11 l10 about"
+                                dangerouslySetInnerHTML={{
+                                    __html: data.markdownRemark.html
+                                }}
+                            ></div>
+                        </div>
+
                         {data.markdownRemark.frontmatter.image && (
-                            <div className="center">
+                            <div className="right">
                                 <div className="img">
                                     <Img
                                         fluid={
@@ -31,12 +54,6 @@ export default function({ data }) {
                                 </div>
                             </div>
                         )}
-                        <div
-                            className="col s12 m11 l10"
-                            dangerouslySetInnerHTML={{
-                                __html: data.markdownRemark.html
-                            }}
-                        ></div>
                     </div>
                 </article>
             </div>

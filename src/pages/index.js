@@ -150,10 +150,13 @@ class IndexPage extends React.Component {
                                 }
                             />
                         </h1>
-                        <a href="#portfolio" className=" arrow">
-                            more...
-                        </a>
+                        <div className="container">
+                            <a href="#portfolio" className=" arrow ">
+                                more...
+                            </a>
+                        </div>
                     </div>
+
                     {/* <a href="#portfolio" className="arrow">
                         more...
                     </a> */}
@@ -164,7 +167,7 @@ class IndexPage extends React.Component {
 
                 <PortfolioList />
                 <BlogList />
-                <Contact />
+                {/* <Contact /> */}
             </Layout>
         );
     }
