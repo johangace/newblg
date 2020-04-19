@@ -13,7 +13,9 @@ class IndexPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            winHeight: "100vh"
+            winHeight: "100vh",
+            windowWidth: null,
+            mobileNavVisible: false
         };
     }
 
