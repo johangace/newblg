@@ -13,9 +13,9 @@ class IndexPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            winHeight: "100vh",
-            windowWidth: null,
-            mobileNavVisible: false
+            winHeight: "100vh"
+            // windowWidth: null,
+            // mobileNavVisible: false
         };
     }
 
@@ -26,6 +26,10 @@ class IndexPage extends React.Component {
     }
 
     componentDidMount() {
+        let windowsize = 900;
+        if (typeof window !== "undefined") {
+            windowsize = useWindowSize();
+        }
         this.setWindowHeight();
         let _this = this;
         window.addEventListener("resize", function() {
