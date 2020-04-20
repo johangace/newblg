@@ -14,9 +14,15 @@ class IndexPage extends React.Component {
         super(props);
         this.state = {
             winHeight: "100vh"
+            windowsize: ""
             // windowWidth: null,
             // mobileNavVisible: false
         };
+        try {
+            let iInnerHeight = window.innerHeight;
+          } catch(oError) {
+            console.log(oError);
+          }
     }
 
     createSVGElement(n, v) {
