@@ -81,11 +81,11 @@ class IndexPage extends React.Component {
                     style={{ height: this.state.winHeight + "px" }}
                 >
                     <div className="intro container">
-                        <div className="main-title text-tertiary">
+                        <div className="tag-line text-secondary">
                             <svg
-                                width="45%"
-                                height="85px"
-                                viewBox="0 0 100 100"
+                                width="10%"
+                                // height="205px"
+                                // viewBox="30 30 30 30"
                                 preserveAspectRatio="xMidYMid slice"
                                 ref={c => (this.svg = c)}
                             >
@@ -105,15 +105,15 @@ class IndexPage extends React.Component {
                                         className="fill-primary"
                                         width="100"
                                         height="100"
-                                    />
-                                    <image
+                                    /> */}
+                                {/* <image
                                         xlinkHref="/images/wall.jpg"
                                         height="100"
                                         width="100"
                                         y="0"
                                         preserveAspectRatio="none"
-                                    ></image>
-                                </pattern> */}
+                                    ></image> */}
+                                {/* </pattern> */}
 
                                 <text
                                     fill="url(#wallPattern)"
