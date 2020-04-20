@@ -27,9 +27,9 @@ class IndexPage extends React.Component {
 
     componentDidMount() {
         // Wrap the require in check for window
-        if (typeof window !== `undefined`) {
-            const module = require("module");
-        }
+        // if (typeof window !== `undefined`) {
+        //     const module = require("module");
+        // }
         this.setWindowHeight();
         let _this = this;
         window.addEventListener("resize", function() {
