@@ -8,6 +8,7 @@ import BlogList from "../components/list-blog";
 import Contact from "../components/contact";
 import "../style/wall.less";
 import ReactTypingEffect from "react-typing-effect";
+import CanvasConfetti from "./CanvasConfetti";
 
 class IndexPage extends React.Component {
     constructor(props) {
@@ -17,6 +18,8 @@ class IndexPage extends React.Component {
             windowWidth: null,
             mobileNavVisible: false
         };
+
+        // const module = typeof window !== `undefined` ? require("module") : null;
     }
 
     createSVGElement(n, v) {
@@ -26,43 +29,48 @@ class IndexPage extends React.Component {
     }
 
     componentDidMount() {
-        this.setWindowHeight();
-        let _this = this;
-        window.addEventListener("resize", function() {
-            _this.setWindowHeight();
-        });
-        let sWidth = this.svg.clientWidth,
-            tText = this.svg.querySelector("text"),
-            tWidth = tText.getBoundingClientRect().width;
-        if (tWidth > sWidth) {
-            let tInnerText = tText.innerHTML;
-            if (tInnerText.split(" ").length > 1) {
-                tText.innerHTML = "";
-                tInnerText.split(" ").forEach(function(e, i) {
-                    let tSpan = _this.createSVGElement("tspan", {
-                        dy: i === 0 ? "0em" : ".8em",
-                        x: "50"
-                    });
-                    tSpan.innerHTML = e;
-                    tText.appendChild(tSpan);
-                });
-                setTimeout(function() {
-                    _this.svg.style.height =
-                        tText.getBoundingClientRect().height + 70;
-                    _this.svg.style.margin = "15px auto";
-                }, 250);
-            } else {
-                while (tWidth > sWidth) {
-                    let fontSize = parseInt(
-                        window
-                            .getComputedStyle(tText, null)
-                            .getPropertyValue("font-size")
-                    );
-                    tText.style.fontSize = fontSize - 1 + "px";
-                    tWidth = tText.getBoundingClientRect().width;
-                }
-            }
-        }
+        // const module = require("module"); // Error
+        // // Wrap the require in check for window
+        // if (typeof window !== `undefined`) {
+        //     const module = require("module");
+        // }
+        // this.setWindowHeight();
+        // let _this = this;
+        // window.addEventListener("resize", function() {
+        //     _this.setWindowHeight();
+        // });
+        // let sWidth = this.svg.clientWidth,
+        //     tText = this.svg.querySelector("text"),
+        //     tWidth = tText.getBoundingClientRect().width;
+        // if (tWidth > sWidth) {
+        //     let tInnerText = tText.innerHTML;
+        //     if (tInnerText.split(" ").length > 1) {
+        //         tText.innerHTML = "";
+        //         tInnerText.split(" ").forEach(function(e, i) {
+        //             let tSpan = _this.createSVGElement("tspan", {
+        //                 dy: i === 0 ? "0em" : ".8em",
+        //                 x: "50"
+        //             });
+        //             tSpan.innerHTML = e;
+        //             tText.appendChild(tSpan);
+        //         });
+        //         setTimeout(function() {
+        //             _this.svg.style.height =
+        //                 tText.getBoundingClientRect().height + 70;
+        //             _this.svg.style.margin = "15px auto";
+        //         }, 250);
+        //     } else {
+        //         while (tWidth > sWidth) {
+        //             let fontSize = parseInt(
+        //                 window
+        //                     .getComputedStyle(tText, null)
+        //                     .getPropertyValue("font-size")
+        //             );
+        //             tText.style.fontSize = fontSize - 1 + "px";
+        //             tWidth = tText.getBoundingClientRect().width;
+        //         }
+        //     }
+        // }
     }
     setWindowHeight() {
         this.setState({
@@ -82,7 +90,7 @@ class IndexPage extends React.Component {
                 >
                     <div className="intro container">
                         <div className="tag-line text-secondary">
-                            <svg
+                            {/* <svg
                                 width="10%"
                                 // height="205px"
                                 // viewBox="30 30 30 30"
@@ -93,7 +101,7 @@ class IndexPage extends React.Component {
                                     .capitalizeTitleOnHome
                                     ? this.props.data.site.siteMetadata.title.toUpperCase()
                                     : this.props.data.site.siteMetadata.title} */}
-                                {/* <pattern
+                            {/* <pattern
                                     id="wallPattern"
                                     patternUnits="userSpaceOnUse"
                                     width="100"
@@ -106,15 +114,15 @@ class IndexPage extends React.Component {
                                         width="100"
                                         height="100"
                                     /> */}
-                                {/* <image
+                            {/* <image
                                         xlinkHref="/images/wall.jpg"
                                         height="100"
                                         width="100"
                                         y="0"
                                         preserveAspectRatio="none"
                                     ></image> */}
-                                {/* </pattern> */}
-
+                            {/* </pattern> */}
+                            {/* 
                                 <text
                                     fill="url(#wallPattern)"
                                     textAnchor="middle"
@@ -128,12 +136,13 @@ class IndexPage extends React.Component {
                                         : this.props.data.site.siteMetadata
                                               .title}
                                 </text>
-                            </svg>
+                            </svg> */}{" "}
+                            <p className="tag-line text-secondary">
+                                {this.props.data.site.siteMetadata.title.toUpperCase()}
+                            </p>
                         </div>
                         {/* <span>.</span> */}
-                        <p className="tag-line text-secondary">
-                            {this.props.data.site.siteMetadata.title.toUpperCase()}
-                        </p>
+
                         <h1 className="caption text-secondary ">
                             {" "}
                             <ReactTypingEffect
@@ -169,6 +178,7 @@ class IndexPage extends React.Component {
 
                 <PortfolioList />
                 <BlogList />
+                <CanvasConfetti />
                 {/* <Contact /> */}
             </Layout>
         );
