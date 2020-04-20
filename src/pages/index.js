@@ -13,16 +13,10 @@ class IndexPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            winHeight: "100vh"
-            windowsize: ""
-            // windowWidth: null,
-            // mobileNavVisible: false
+            winHeight: "100vh",
+            windowWidth: null,
+            mobileNavVisible: false
         };
-        try {
-            let iInnerHeight = window.innerHeight;
-          } catch(oError) {
-            console.log(oError);
-          }
     }
 
     createSVGElement(n, v) {
@@ -32,10 +26,6 @@ class IndexPage extends React.Component {
     }
 
     componentDidMount() {
-        let windowsize = 900;
-        if (typeof window !== "undefined") {
-            windowsize = useWindowSize();
-        }
         this.setWindowHeight();
         let _this = this;
         window.addEventListener("resize", function() {
@@ -92,18 +82,18 @@ class IndexPage extends React.Component {
                 >
                     <div className="intro container">
                         <div className="main-title text-tertiary">
-                            {/* <svg
+                            <svg
                                 width="45%"
                                 height="85px"
                                 viewBox="0 0 100 100"
                                 preserveAspectRatio="xMidYMid slice"
                                 ref={c => (this.svg = c)}
                             >
-                                {this.props.data.site.siteMetadata
+                                {/* {this.props.data.site.siteMetadata
                                     .capitalizeTitleOnHome
                                     ? this.props.data.site.siteMetadata.title.toUpperCase()
-                                    : this.props.data.site.siteMetadata.title}
-                                <pattern
+                                    : this.props.data.site.siteMetadata.title} */}
+                                {/* <pattern
                                     id="wallPattern"
                                     patternUnits="userSpaceOnUse"
                                     width="100"
@@ -116,14 +106,14 @@ class IndexPage extends React.Component {
                                         width="100"
                                         height="100"
                                     />
-                                    {/* <image
+                                    <image
                                         xlinkHref="/images/wall.jpg"
                                         height="100"
                                         width="100"
                                         y="0"
                                         preserveAspectRatio="none"
-                                    ></image> 
-                            {/* </pattern>
+                                    ></image>
+                                </pattern> */}
 
                                 <text
                                     fill="url(#wallPattern)"
@@ -138,7 +128,7 @@ class IndexPage extends React.Component {
                                         : this.props.data.site.siteMetadata
                                               .title}
                                 </text>
-                            </svg> */}
+                            </svg>
                         </div>
                         {/* <span>.</span> */}
                         <p className="tag-line text-secondary">
