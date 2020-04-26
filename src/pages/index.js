@@ -7,7 +7,7 @@ import PortfolioList from "../components/list-portfolio";
 import BlogList from "../components/list-blog";
 import Contact from "../components/contact";
 import "../style/wall.less";
-import ReactTypingEffect from "react-typing-effect";
+// import ReactTypingEffect from "react-typing-effect";
 
 class IndexPage extends React.Component {
     constructor(props) {
@@ -15,7 +15,10 @@ class IndexPage extends React.Component {
         this.state = {
             winHeight: "100vh"
         };
-
+        // this.width = window.innerWidth;
+        if (typeof window === "undefined") {
+            global.window = {};
+        }
         // const module = typeof window !== `undefined` ? require("module") : null;
     }
 
@@ -25,18 +28,17 @@ class IndexPage extends React.Component {
         return n;
     }
 
-    componentDidMount() {
-        const isBrowser = typeof window !== "undefined";
-        const AOS = isBrowser ? require("aos") : undefined;
+    // componentDidMount() {
+    //     const isBrowser = typeof window !== "undefined";
+    //     const AOS = isBrowser ? require("aos") : undefined;
 
-        this.aos = AOS;
-        this.aos.init();
-    }
+    //     this.aos = AOS;
+    //     this.aos.init();
+    // }
 
-    componentDidUpdate() {
-        this.aos.refresh();
-    }
-
+    // componentDidUpdate() {
+    //     this.aos.refresh();
+    // }
     // componentDidMount() {
     //     // Wrap the require in check for window
     //     // if (typeof window !== `undefined`) {
@@ -86,7 +88,7 @@ class IndexPage extends React.Component {
         });
     }
     render() {
-        return (
+        return typeof window !== `undefined` ? (
             <Layout placeholder={false}>
                 <SEO
                     lang="en"
@@ -153,7 +155,7 @@ class IndexPage extends React.Component {
 
                         <h1 className="caption text-secondary ">
                             {" "}
-                            <ReactTypingEffect
+                            {/* <ReactTypingEffect
                                 speed={100}
                                 cursorClassName="red"
                                 className=" fonty"
@@ -167,7 +169,7 @@ class IndexPage extends React.Component {
                                     // this.props.data.site.siteMetadata
                                     //     .description
                                 }
-                            />
+                            /> */}
                         </h1>
                         <div className="container">
                             <a href="#portfolio" className=" arrow ">
@@ -189,7 +191,7 @@ class IndexPage extends React.Component {
 
                 {/* <Contact /> */}
             </Layout>
-        );
+        ) : null;
     }
 }
 

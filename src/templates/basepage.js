@@ -6,7 +6,7 @@ import SEO from "../components/seo";
 import "../style/basepage.less";
 
 export default function({ data }) {
-    return (
+    return typeof window !== `undefined` ? (
         <Layout>
             <SEO
                 lang="en"
@@ -58,7 +58,7 @@ export default function({ data }) {
                 </article>
             </div>
         </Layout>
-    );
+    ) : null;
 }
 
 export const query = graphql`

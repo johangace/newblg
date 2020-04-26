@@ -8,7 +8,7 @@ import Date from "../components/date";
 import "../style/blog-singlepage.less";
 
 export default function({ data }) {
-    return (
+    return typeof window !== `undefined` ? (
         <Layout>
             <SEO
                 lang="en"
@@ -46,7 +46,7 @@ export default function({ data }) {
                 <LatestPosts id={data.markdownRemark.id} />
             </div>
         </Layout>
-    );
+    ) : null;
 }
 
 export const query = graphql`

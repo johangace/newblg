@@ -29,12 +29,12 @@ class BlogList extends React.Component {
 }
 
 export default function({ data, pathContext }) {
-    return (
+    return typeof window !== `undefined` ? (
         <Layout>
             <SEO lang="en" title="Blog" />
             <BlogList datas={data} pathContext={pathContext} />
         </Layout>
-    );
+    ) : null;
 }
 
 export const query = graphql`

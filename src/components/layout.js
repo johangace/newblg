@@ -4,6 +4,10 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 
 const Layout = ({ placeholder, children }) => {
+    const isBrowser = typeof window !== `undefined`;
+    // if (isBrowser) {
+    //     console.log("this" + window.location.pathname);
+    // }
     return (
         <React.Fragment>
             <Head />
