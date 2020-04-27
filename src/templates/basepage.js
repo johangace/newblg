@@ -28,14 +28,15 @@ export default function({ data }) {
                                 <h4> hello@johangace.com</h4>
                             </a>
                             <a href="mailto:hello@johangace.com?">
-                                {/* <img
+                                <img
+                                    alt="email"
                                     className="envelope"
-                                    src="images/mail.svg"
-                                /> */}
+                                    src="/images/mail.png"
+                                />
                             </a>
 
                             <div
-                                className="col s12 m11 l10 about"
+                                className="about"
                                 dangerouslySetInnerHTML={{
                                     __html: data.markdownRemark.html
                                 }}
