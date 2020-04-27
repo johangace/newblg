@@ -11,11 +11,12 @@
     }
 
     .content {
-        // width: 80%;
-        display: flex;
+        width: 100%;
+        display: grid;
         place-items: center;
+        grid-template-columns: 1fr 1fr;
 
-        margin: 50px auto;
+        // margin: 50px auto;
 
         p,
         h2,
@@ -34,7 +35,7 @@
             margin-right: 15px;
             text-align: center;
             margin: auto 10px;
-            width: 500px;
+            width: 100%;
             p {
                 margin: 10px auto 20px auto;
             }
@@ -55,15 +56,11 @@
         }
         .right {
             width: 400px;
-            // object-fit: cover;
-            // object-fit: contain;
+            object-fit: cover;
+            object-fit: contain;
             opacity: 0.95;
-            margin-left: 20px;
-
-            img {
-                filter: brightness(70%);
-                border-radius: 2%;
-            }
+            filter: brightness(80%);
+            // margin-left: 20px;
         }
 
         .gatsby-resp-image-wrapper {
@@ -103,10 +100,6 @@
     }
     .right img {
         display: none;
-        img {
-            filter: brightness(70%);
-            border-radius: 2%;
-        }
     }
     .post {
         .content {

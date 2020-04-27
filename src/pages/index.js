@@ -171,11 +171,11 @@ class IndexPage extends React.Component {
                                     //     .description
                                 }
                             /> */}
-                            <Typing loop={false} eed={120}>
+                            <Typing loop={false} speed={160}>
                                 <div className="fonty" sp>
                                     I am a web developer.
                                 </div>
-                                <Typing.Backspace count={21} delay={20} />
+                                <Typing.Backspace count={21} delay={200} />
                                 <div className="fonty">
                                     I craft Digital Experiences.
                                 </div>
