@@ -178,9 +178,6 @@ class IndexPage extends React.Component {
                         </div>
                     </div>
 
-                    {/* <a href="#portfolio" className="arrow">
-                        more...
-                    </a> */}
                     <div className="social-buttons">
                         <SocialLinks />
                     </div>

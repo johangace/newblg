@@ -2,6 +2,7 @@
 title: About
 template: basepage
 image: ./main.jpeg
+date: 2020-04-20
 ---
 
 Driven by curiosity and the love of craft, I enjoy making

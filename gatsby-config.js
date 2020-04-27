@@ -1,8 +1,8 @@
 let siteMetadata = {
     title: `Johan Gace.`,
     capitalizeTitleOnHome: true,
-    logo: `/images/log.png`,
-    icon: `/images/log.png`,
+    logo: `/images/JG.svg`,
+    icon: `/images/JG.svg`,
     titleImage: `/images/wall.jpg`,
     introTag: `Web Developer`,
     description: `I Love to Design and Make things.`,
@@ -56,7 +56,7 @@ let siteMetadata = {
         },
         {
             name: "GitHub",
-            icon: "/images/github.png",
+            icon: "/images/github.svg",
             url: "https://github.com/johangace"
         },
         // {
@@ -67,7 +67,7 @@ let siteMetadata = {
         // },
         {
             name: "Goodreads",
-            icon: "/images/goodreads.png",
+            icon: "/images/goodreads.svg",
             url: "https://www.goodreads.com/user/show/33277000-johan"
         }
     ],
