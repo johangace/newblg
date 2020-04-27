@@ -7,6 +7,7 @@ import PortfolioList from "../components/list-portfolio";
 import BlogList from "../components/list-blog";
 import Contact from "../components/contact";
 import "../style/wall.less";
+import Typing from "react-typing-animation";
 // import ReactTypingEffect from "react-typing-effect";
 
 class IndexPage extends React.Component {
@@ -170,6 +171,13 @@ class IndexPage extends React.Component {
                                     //     .description
                                 }
                             /> */}
+                            <Typing>
+                                <span>I am a web developer.</span>
+                                <span>I craft Digital Experiences.</span>
+                                <span>I Love to Design & Build things.</span>
+                                <Typing.Reset count={3} delay={500} />
+                                <Typing.Backspace count={20} />
+                            </Typing>
                         </h1>
                         <div className="container">
                             <a href="#portfolio" className=" arrow ">
@@ -178,6 +186,9 @@ class IndexPage extends React.Component {
                         </div>
                     </div>
 
+                    {/* <a href="#portfolio" className="arrow">
+                        more...
+                    </a> */}
                     <div className="social-buttons">
                         <SocialLinks />
                     </div>

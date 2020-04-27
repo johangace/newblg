@@ -28,10 +28,10 @@ export default function({ data }) {
                                 <h4> hello@johangace.com</h4>
                             </a>
                             <a href="mailto:hello@johangace.com?">
-                                <img
+                                {/* <img
                                     className="envelope"
                                     src="images/mail.svg"
-                                />
+                                /> */}
                             </a>
 
                             <div
