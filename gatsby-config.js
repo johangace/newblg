@@ -21,7 +21,7 @@ let siteMetadata = {
             url: "/about"
         },
         {
-            name: "BLOG",
+            name: "NOTES",
             url: "/blog"
         },
         {
@@ -58,21 +58,20 @@ let siteMetadata = {
             name: "GitHub",
             icon: "/images/github.svg",
             url: "https://github.com/johangace"
-        },
+        }
         // {
         //     name: "Youtube",
         //     icon: "/images/Youtube.svg",
         //     url:
         //         "https://www.youtube.com/channel/UCJ6-4OCJiUpzd56aF6-k6ag?view_as=subscriber"
         // },
-        {
+        // {
             name: "Goodreads",
             icon: "/images/goodreads.svg",
             url: "https://www.goodreads.com/user/show/33277000-johan"
         }
     ],
     contact: {
-        /* Leave the below value completely empty (no space either) if you don't want a contact form. */
         api_url: "./test.json",
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
         mail: "hi@johangace.com"
