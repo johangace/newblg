@@ -65,7 +65,7 @@ let siteMetadata = {
         //     url:
         //         "https://www.youtube.com/channel/UCJ6-4OCJiUpzd56aF6-k6ag?view_as=subscriber"
         // },
-        // {
+        {
             name: "Goodreads",
             icon: "/images/goodreads.svg",
             url: "https://www.goodreads.com/user/show/33277000-johan"
