@@ -58,7 +58,7 @@ let siteMetadata = {
             name: "GitHub",
             icon: "/images/github.svg",
             url: "https://github.com/johangace"
-        }
+        },
         // {
         //     name: "Youtube",
         //     icon: "/images/Youtube.svg",
