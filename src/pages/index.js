@@ -171,12 +171,12 @@ class IndexPage extends React.Component {
                                     //     .description
                                 }
                             /> */}
-                            <Typing>
+                            <Typing loop={true}>
                                 <span>I am a web developer.</span>
-                                <span>I craft Digital Experiences.</span>
-                                <span>I Love to Design & Build things.</span>
-                                <Typing.Reset count={3} delay={500} />
-                                <Typing.Backspace count={20} />
+                                {/* <span>I craft Digital Experiences.</span>
+                                <span>I Love to Design & Build things.</span> */}
+                                {/* <Typing.Reset count={1} delay={500} /> */}
+                                <Typing.Reset count={1} delay={500} />
                             </Typing>
                         </h1>
                         <div className="container">
