@@ -14,12 +14,15 @@ export default function({ data }) {
                 description={data.markdownRemark.frontmatter.description}
             />
             <div className="container">
-                <article className="post ">
+                <div className="post ">
                     <div className="head text-primary">
                         {/* <h1>{data.markdownRemark.frontmatter.title}</h1> */}
                     </div>
                     {/* <div className="content row flex"> */}
                     <div className="content ">
+                        <div className="right">
+                            <img alt="Johan" src="/images/main-1.jpeg" />
+                        </div>
                         <div className="header">
                             <h1 className="say-hi"> Say Hi. </h1>
                             <p> I would love to learn about your projects.</p>
@@ -37,13 +40,18 @@ export default function({ data }) {
 
                             <div
                                 className="about"
-                                dangerouslySetInnerHTML={{
-                                    __html: data.markdownRemark.html
-                                }}
-                            ></div>
+                                // dangerouslySetInnerHTML={{
+                                //     __html: data.markdownRemark.html
+                                // }}
+                            >
+                                Driven by curiosity and the love of craft, I
+                                enjoy making beautiful and bold Web
+                                Applications.
+                                <div>Johan Gace,</div> <div> Miami, FL</div>
+                            </div>
                         </div>
 
-                        {data.markdownRemark.frontmatter.image && (
+                        {/* {data.markdownRemark.frontmatter.image && (
                             <div className="right">
                                 <div className="img">
                                     <Img
@@ -54,9 +62,9 @@ export default function({ data }) {
                                     />
                                 </div>
                             </div>
-                        )}
+                        )} */}
                     </div>
-                </article>
+                </div>
             </div>
         </Layout>
     ) : null;

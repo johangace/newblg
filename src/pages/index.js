@@ -171,7 +171,7 @@ class IndexPage extends React.Component {
                                     //     .description
                                 }
                             /> */}
-                            <Typing loop={false} speed={160}>
+                            <Typing loop={false} speed={120}>
                                 <div className="fonty" sp>
                                     I am a web developer.
                                 </div>

@@ -16,7 +16,7 @@ function SidebarContents() {
                     <Logo />
                 </Link>
             </div>
-            <div className="links text-secondary">
+            <div className="links ">
                 <NavLinks />
             </div>
             <div className="social-links">
