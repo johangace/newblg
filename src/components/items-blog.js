@@ -36,7 +36,7 @@ class BlogItem extends React.Component {
                         </Link>
                     </div>
                     <div className="content">
-                        <h3 className="text-primary">
+                        <h3 className="text-secondary">
                             <Link
                                 to={this.props.data.node.fields.slug}
                                 title={this.props.data.node.frontmatter.title}

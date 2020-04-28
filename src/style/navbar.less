@@ -38,20 +38,22 @@ nav {
 
     ul {
         list-style: none;
+        margin-right: 30px;
 
         li {
             display: inline-block;
             vertical-align: middle;
+            font-size: 0.9rem;
 
             a {
-                margin: 0 10px;
+                margin: 0 30px;
                 position: relative;
 
                 &:before {
                     content: "";
                     position: absolute;
                     width: 105%;
-                    height: 16px;
+                    height: 6px;
                     left: 50%;
                     top: 55%;
                     transform: translate(-50%, -50%) scale(0);
@@ -61,16 +63,14 @@ nav {
                     background-color: #f7b830;
                 }
 
-                // &.active:before,
-                // &:focus:before,
                 &:hover:before {
                     transform: translate(-50%, -50%) scale(1);
                 }
 
-                span {
-                    position: relative;
-                    z-index: 2;
-                }
+                // span {
+                //     position: relative;
+                //     z-index: 2;
+                // }
             }
 
             &.switch-theme {
@@ -147,6 +147,7 @@ nav {
 
             img {
                 width: 20px;
+                filter: invert(100%);
             }
         }
 
@@ -163,6 +164,7 @@ nav {
                     margin: 20px 0;
                     a {
                         color: gray;
+                        font-size: 30px;
                     }
                 }
             }

@@ -21,7 +21,7 @@ let siteMetadata = {
             url: "/about"
         },
         {
-            name: "NOTES",
+            name: "BLOG",
             url: "/blog"
         },
         {
@@ -58,18 +58,18 @@ let siteMetadata = {
             name: "GitHub",
             icon: "/images/github.svg",
             url: "https://github.com/johangace"
-        },
+        }
         // {
         //     name: "Youtube",
         //     icon: "/images/Youtube.svg",
         //     url:
         //         "https://www.youtube.com/channel/UCJ6-4OCJiUpzd56aF6-k6ag?view_as=subscriber"
         // },
-        {
-            name: "Goodreads",
-            icon: "/images/goodreads.svg",
-            url: "https://www.goodreads.com/user/show/33277000-johan"
-        }
+        // {
+        //     name: "Goodreads",
+        //     icon: "/images/goodreads.svg",
+        //     url: "https://www.goodreads.com/user/show/33277000-johan"
+        // }
     ],
     contact: {
         api_url: "./test.json",

@@ -132,36 +132,81 @@ h6 {
     display: flex;
     place-content: center;
 }
-.arrow {
-    display: flex;
-    border: 1px solid #b1b1b1;
-    outline: 0;
-    cursor: pointer;
 
-    margin: 158px auto 0 auto;
-    height: 20px;
-    border: 1px solid black;
-    width: 20px;
-    height: 50px !important;
-    line-height: 50px !important;
-    font-size: 14px !important;
+.v-line {
+    width: 1px;
+    height: 35px;
+    position: absolute;
+    text-transform: uppercase;
+    -ms-writing-mode: tb-rl;
+    /* writing-mode: vertical-rl; */
+    left: 11px;
+    transform: translateY(-52.3888px);
+}
+.arrow {
+    color: black;
+    // bottom: -70px;
+    font-size: 18px;
+    // left: 50%;
+    // margin-left: -6px;
     letter-spacing: 2px;
-    padding: 0 45px !important;
-    background: black;
+    // overflow: hidden;
+    // padding-top: 70px;
+    position: absolute;
+    text-transform: uppercase;
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    transform: translateY(11.6112px);
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 30%;
+        height: 80px;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%) scale(0);
+        // border-radius: 50%;
+        opacity: 0.8;
+        transition: transform 0.26s;
+        background-color: #f7b830;
+        color: black;
+    }
+
+    // &.active:before,
+    // &:focus:before,
+    &:hover:before {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    // border: 1px solid #b1b1b1;
+    // outline: 0;
+    // cursor: pointer;
+
+    // margin: 158px auto 0 auto;
+    // height: 20px;
+    // border: 1px solid black;
+    // width: 20px;
+    // height: 50px !important;
+    // line-height: 50px !important;
+    // font-size: 14px !important;
+    // letter-spacing: 2px;
+    // padding: 10px 0px !important;
+    // background: black;
 
     // background-image: linear-gradient(
     //     to left,
     //     @colorPrimary,
     //     @colorSecondary
     // ) !important;
-    color: #fff !important;
-    // border: none !important;
-    justify-content: center;
-    // border-radius: 5px;
+    // color: #fff !important;
+    // // border: none !important;
+    // justify-content: center;
+    // // border-radius: 5px;
 
-    &.disabled {
-        opacity: 0.7;
-    }
+    // &.disabled {
+    //     opacity: 0.7;
+    // }
 }
 // background-color: @color-secondary;
 

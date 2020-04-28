@@ -149,7 +149,9 @@ class IndexPage extends React.Component {
                                 </text>
                             </svg> */}
                             <p className="tag-line text-secondary">
-                                {this.props.data.site.siteMetadata.title.toUpperCase()}
+                                <span className="red bkg-blk"> JOHAN</span>{" "}
+                                GACE.
+                                {/* {this.props.data.site.siteMetadata.title.toUpperCase()} */}
                             </p>
                         </div>
                         {/* <span>.</span> */}
@@ -171,7 +173,7 @@ class IndexPage extends React.Component {
                                     //     .description
                                 }
                             /> */}
-                            <Typing loop={false} speed={120}>
+                            <Typing loop={false} speed={100}>
                                 <div className="fonty" sp>
                                     I am a web developer.
                                 </div>
@@ -181,13 +183,16 @@ class IndexPage extends React.Component {
                                 </div>
                                 <Typing.Backspace count={28} delay={200} />
                                 {/* <Typing.Delay ms={1000} /> */}
-                                <div>I Love to Design & Build things.</div>
+                                <div className="fonty">
+                                    I Love to Design & Build things.
+                                </div>
                                 {/* <Typing.Reset count={1} delay={500} /> */}
                                 {/* <Cursor /> */}
                             </Typing>
                         </h1>
                         <div className="container">
-                            <a href="#blog" className=" arrow ">
+                            <a href="#blog" className="arrow ">
+                                <hr className="v-line" />
                                 more...
                             </a>
                         </div>
