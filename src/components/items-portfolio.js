@@ -10,6 +10,7 @@ class PortfolioItem extends React.Component {
                 <div className="row flex">
                     <div className="col m6 image">
                         <Img
+                            className="portfolio-img"
                             fluid={
                                 this.props.data.node.frontmatter.image
                                     .childImageSharp.fluid

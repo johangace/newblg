@@ -56,7 +56,7 @@ let siteMetadata = {
         },
         {
             name: "GitHub",
-            icon: "/images/github.svg",
+            icon: "/images/github.png",
             url: "https://github.com/johangace"
         }
         // {
