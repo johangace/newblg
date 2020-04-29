@@ -12,7 +12,7 @@ image: ./searchbar.png
 
 <iframe class="post-video" src="https://www.youtube.com/embed/0up5nOnh2Xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Link to App](https://the-search-bar.herokuapp.com/)
+<!-- [Link to App](https://the-search-bar.herokuapp.com/) -->
 
 Features:
 

@@ -136,11 +136,12 @@ h6 {
 .v-line {
     width: 1px;
     height: 35px;
-    left: 36px;
+    left: 30px;
     top: -32px;
     margin: inherit;
     position: relative;
 }
+
 .arrow {
     color: black;
     // bottom: -70px;
@@ -157,23 +158,36 @@ h6 {
     // transform: rotate(180deg);
     transform: rotate(90deg);
     &:before {
+        // content: "";
+        // position: absolute;
+        // width: 80px;
+        // height: 10px;
+        // left: 56%;
+        // top: 57%;
+        // transform: translate(-50%, -50%) scale(0);
+        // opacity: 0.8;
+        // transition: transform 0.26s;
+        // background-color: #f7b830;
+        // color: black;
+        // transform: rotate(90deg);
+        &.v-line {
+            display: none;
+        }
+    }
+
+    &:hover:before {
         content: "";
         position: absolute;
         width: 80px;
         height: 10px;
         left: 56%;
-        top: 47%;
+        top: 57%;
         transform: translate(-50%, -50%) scale(0);
         opacity: 0.8;
         transition: transform 0.26s;
         background-color: #f7b830;
         color: black;
         transform: rotate(90deg);
-    }
-
-    // &.active:before,
-    // &:focus:before,
-    &:hover:before {
         transform: translate(-50%, -50%) scale(1);
     }
 
