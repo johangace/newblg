@@ -144,7 +144,7 @@ h6 {
 .arrow {
     color: black;
     // bottom: -70px;
-    font-size: 18px;
+    font-size: 14px;
     // left: 50%;
     // margin-left: -6px;
     letter-spacing: 2px;
@@ -461,5 +461,21 @@ div[role="navigation"] {
     section svg text {
         font: bold 12px sans-serif;
         font-family: "Poppins", sans-serif;
+    }
+}
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
+        infinite;
+}
+
+@keyframes blinking-cursor {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }

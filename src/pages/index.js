@@ -9,6 +9,7 @@ import Contact from "../components/contact";
 import "../style/wall.less";
 import Typing from "react-typing-animation";
 // import ReactTypingEffect from "react-typing-effect";
+var ReactRotatingText = require("react-rotating-text");
 
 class IndexPage extends React.Component {
     constructor(props) {
@@ -157,23 +158,7 @@ class IndexPage extends React.Component {
                         {/* <span>.</span> */}
 
                         <h1 className="caption text-secondary ">
-                            {" "}
-                            {/* <ReactTypingEffect
-                                speed={100}
-                                cursorClassName="red"
-                                className=" fonty"
-                                // staticText={this.props.children}
-                                text={
-                                    [
-                                        "I craft Digital Experiences.",
-                                        "I Love to Design & Build things."
-                                    ]
-
-                                    // this.props.data.site.siteMetadata
-                                    //     .description
-                                }
-                            /> */}
-                            <Typing loop={false} speed={90}>
+                            {/* <Typing loop={false} speed={90}>
                                 <div className="fonty" sp>
                                     I am a web developer.
                                 </div>
@@ -182,20 +167,30 @@ class IndexPage extends React.Component {
                                     I craft Digital Experiences.
                                 </div>
                                 <Typing.Backspace count={28} delay={100} />
-                                {/* <Typing.Delay ms={1000} /> */}
-                                <div className="fonty">
+                                <Typing.Delay ms={1000} />
+                                <div className="fontiy">
                                     I Love to Design & Build things.
-                                    {/* <Typing.Reset count={1} delay={500} /> */}
+                                    <Typing.Reset count={1} delay={500} />
                                 </div>
-                                {/* <Typing.Reset count={1} delay={500} /> */}
-                                {/* <Cursor /> */}
-                            </Typing>
+                                <Typing.Reset count={1} delay={500} />
+                                <Cursor />
+                            </Typing> */}
+                            <ReactRotatingText
+                                typingInterval={120}
+                                color
+                                deletingInterval={80}
+                                pauseInterval={8000}
+                                // eraseMode={"overwrite"}
+                                items={[
+                                    "I am a Web Developer.",
+                                    " I craft Digital Experiences.",
+                                    "I Love to Design & Build things."
+                                ]}
+                            />
                         </h1>
                         <div className="container">
                             <hr className="v-line" />
-                            <a href="#blog" className="arrow ">
-                                more...
-                            </a>
+                            <a className="arrow ">scroll...</a>
                         </div>
                     </div>
 
