@@ -190,7 +190,9 @@ class IndexPage extends React.Component {
                         </h1>
                         <div className="container">
                             <hr className="v-line" />
-                            <a className="arrow ">scroll...</a>
+                            <a href="#portfolio" className="arrow ">
+                                more...
+                            </a>
                         </div>
                     </div>
 

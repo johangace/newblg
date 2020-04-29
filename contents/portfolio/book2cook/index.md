@@ -9,7 +9,9 @@ image: ./b2c.png
 <br> 
 <iframe  width="853" height="480" src="https://www.youtube.com/embed/JHg7fRLHzIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**This Application was selected as the best coding project on [Wyncode's](htttps://wyncode.co) Cohort 34 Pitch Night.** [Link to App](https://book2cook.herokuapp.com/)
+**This Application was selected as the best coding project on [Wyncode's](htttps://wyncode.co) Cohort 34 Pitch Night.**
+
+<!-- [Link to App](https://book2cook.herokuapp.com/) -->
 
 Book2Cook is application that allows you to share homemade recipes with friends and family in a social media style.
 With Book2Cook you can create and print unique cookbooks have them delivered at your home. We built this application because we believe in the power of sharing good meals and preserving traditions.
