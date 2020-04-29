@@ -192,8 +192,8 @@ class IndexPage extends React.Component {
                             </Typing>
                         </h1>
                         <div className="container">
+                            <hr className="v-line" />
                             <a href="#blog" className="arrow ">
-                                <hr className="v-line" />
                                 more...
                             </a>
                         </div>
