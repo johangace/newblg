@@ -147,7 +147,7 @@ nav {
 
             img {
                 width: 20px;
-                filter: invert(100%);
+                // filter: invert(100%);
             }
         }
 
@@ -210,6 +210,35 @@ nav {
 
         #menu-open {
             display: block;
+        }
+    }
+}
+.dark-mode {
+    .sidebar-content {
+        padding: 22px;
+        min-width: 45%;
+        max-width: 75%;
+        background-color: #4c4c54;
+
+        .sidebar-contents {
+            .links {
+                flex: 1 1 auto;
+                padding: 20px 0;
+                display: flex;
+                align-items: center;
+
+                ul {
+                    list-style: none;
+                    color: white;
+                    li {
+                        margin: 20px 0;
+                        a {
+                            color: orange;
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

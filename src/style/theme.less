@@ -136,8 +136,8 @@ h6 {
 .v-line {
     width: 1px;
     height: 35px;
-    left: 30px;
-    top: -32px;
+    // left: 30px;
+    top: -47px;
     margin: inherit;
     position: relative;
 }
@@ -148,7 +148,8 @@ h6 {
     font-size: 14px;
     // left: 50%;
     // margin-left: -6px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+    margin-left: -46px;
     // overflow: hidden;
     // padding-top: 70px;
     position: absolute;
@@ -178,9 +179,9 @@ h6 {
     &:hover:before {
         content: "";
         position: absolute;
-        width: 80px;
-        height: 10px;
-        left: 56%;
+        width: 90px;
+        height: 8px;
+        left: 50%;
         top: 57%;
         transform: translate(-50%, -50%) scale(0);
         opacity: 0.8;
@@ -342,30 +343,26 @@ nav ul li a:before {
     }
 }
 
-.fill-primary {
-    &,
-    & path {
-        fill: @colorPrimary;
-    }
-}
-
 .fill-secondary {
     &,
     & path {
-        fill: @textSecondary;
+        fill: orange;
     }
 }
 
 .blog-post blockquote {
     border-left: 3px solid @colorSecondary;
 }
+.red {
+    color: #f2a602;
+}
 
 .dark-mode {
-    @background: #4a4646;
-    @textPrimary: #830000;
-    @textSecondary: #8e8e8e;
+    @background: black;
+    @textPrimary: #4c4c54;
+    @textSecondary: #4c4c54;
 
-    @textTertiary: #ffffff;
+    @textTertiary: black;
     @textNormal: #b8b7bf;
     @colorPrimary: #000000;
     @colorSecondary: #fefefe;
@@ -394,7 +391,9 @@ nav ul li a:before {
             color: @textTertiary;
         }
     }
-
+    .arrow {
+        color: gray;
+    }
     .text-primary {
         &,
         & a {
@@ -431,7 +430,10 @@ nav ul li a:before {
     nav ul li a:before {
         background: @colorSecondary;
     }
-
+    .fill-secondary,
+    .fill-secondary path {
+        fill: orange;
+    }
     .btn {
         background-image: linear-gradient(
             to left,

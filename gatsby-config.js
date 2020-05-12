@@ -9,8 +9,8 @@ let siteMetadata = {
     author: `Johan`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
-    darkmode: false,
-    switchTheme: false,
+    darkmode: true,
+    switchTheme: true,
     navLinks: [
         {
             name: "HOME",
