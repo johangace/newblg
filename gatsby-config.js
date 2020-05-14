@@ -1,7 +1,7 @@
 let siteMetadata = {
     title: `Johan Gace.`,
     capitalizeTitleOnHome: true,
-    logo: `/images/logo.png`,
+    logo: `/images/joh.png`,
     icon: `/images/waving.png`,
     titleImage: `/images/wall.jpg`,
     introTag: `Web Developer`,

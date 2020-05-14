@@ -186,7 +186,7 @@ h6 {
         transform: translate(-50%, -50%) scale(0);
         opacity: 0.8;
         transition: transform 0.26s;
-        background-color: #f7b830;
+        background-color: #fd9900;
         color: black;
         transform: rotate(90deg);
         transform: translate(-50%, -50%) scale(1);
@@ -346,7 +346,7 @@ nav ul li a:before {
 .fill-secondary {
     &,
     & path {
-        fill: orange;
+        fill: #fd9900;
     }
 }
 
@@ -354,9 +354,11 @@ nav ul li a:before {
     border-left: 3px solid @colorSecondary;
 }
 .red {
-    color: #f2a602;
+    color: #fd9900;
 }
-
+.orange:hover a {
+    color: #fd9900 !important;
+}
 .dark-mode {
     @background: black;
     @textPrimary: #4c4c54;
@@ -432,7 +434,7 @@ nav ul li a:before {
     }
     .fill-secondary,
     .fill-secondary path {
-        fill: orange;
+        fill: #fd9900;
     }
     .btn {
         background-image: linear-gradient(
@@ -443,11 +445,18 @@ nav ul li a:before {
     }
 
     .pseudo-divider:after {
-        background: linear-gradient(
-            to left,
-            @colorPrimary,
-            @colorSecondary
-        ) !important;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        background: #fd9900 !important;
+        // linear-gradient(
+        //     to left,
+        //     @colorPrimary,
+        //     @colorSecondary
+        // ) !important;
+        bottom: -4px;
+        left: 0;
     }
 
     .sidebar-content {

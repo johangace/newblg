@@ -23,7 +23,7 @@ export default function({ data }) {
                         <div className="right">
                             <img alt="Johan" src="/images/main-1.jpeg" />
                         </div>
-                        <div className="header">
+                        <div className="header text-secondary">
                             <h1 className="say-hi"> Say Hi. </h1>
                             <p> I would love to learn about your projects.</p>
 

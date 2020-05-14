@@ -60,7 +60,7 @@ nav {
                     // border-radius: 50%;
                     opacity: 0.9;
                     transition: transform 0.26s;
-                    background-color: #f7b830;
+                    background-color: #fd9900;
                 }
 
                 &:hover:before {
@@ -164,6 +164,7 @@ nav {
                     margin: 20px 0;
                     a {
                         color: gray;
+                        background-color: #fd9900;
                         font-size: 30px;
                     }
                 }
@@ -214,28 +215,77 @@ nav {
     }
 }
 .dark-mode {
-    .sidebar-content {
-        padding: 22px;
-        min-width: 45%;
-        max-width: 75%;
-        background-color: #4c4c54;
+    .links {
+        flex: 1 1 auto;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+    }
+    nav {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        padding: 22px 44px;
+        align-items: center;
+        z-index: 99;
+        transition: height 0.25s;
 
-        .sidebar-contents {
-            .links {
-                flex: 1 1 auto;
-                padding: 20px 0;
-                display: flex;
-                align-items: center;
+        #menu-open {
+            position: absolute;
+            left: 5%;
+            display: none;
 
-                ul {
-                    list-style: none;
-                    color: white;
-                    li {
-                        margin: 20px 0;
-                        a {
-                            color: orange;
-                            font-size: 30px;
-                        }
+            .icon {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        img {
+            width: 27px;
+            height: auto;
+            align-items: center;
+            transition: width 0.25s;
+        }
+
+        &.scrolled {
+            padding: 12px 36px;
+
+            img {
+                width: 34px;
+            }
+        }
+
+        ul {
+            list-style: none;
+            margin-right: 30px;
+
+            li {
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 0.9rem;
+
+                a {
+                    margin: 0 30px;
+                    position: relative;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        width: 105%;
+                        height: 6px;
+                        left: 50%;
+                        top: 55%;
+                        transform: translate(-50%, -50%) scale(0);
+                        // border-radius: 50%;
+                        opacity: 0.9;
+                        transition: transform 0.26s;
+                        background-color: #fd9900;
+                    }
+
+                    &:hover:before {
+                        transform: translate(-50%, -50%) scale(1);
                     }
                 }
             }
