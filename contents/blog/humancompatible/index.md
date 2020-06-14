@@ -1,5 +1,5 @@
 ---
-title: "Book Recommendation #1: Human Compatible"
+title: "Book Talk #1: Human Compatible"
 date: 2020-03-28
 template: blog
 image: ./human.jpg
