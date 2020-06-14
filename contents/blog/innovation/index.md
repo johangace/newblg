@@ -7,7 +7,7 @@ banner: ./innovation-banner.jpg
 description: Book on Innovation
 ---
 
-<h6> 7 takeaways from Matt Riddley's "How Innovation Works"  </h6>
+<h6> 7 takeaways from Matt Riddley's newest book </h6>
 
 1. Innovation combines existing components in new ways
    <br>
