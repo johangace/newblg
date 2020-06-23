@@ -7,7 +7,7 @@ banner: ./scrum-banner.jpg
 description: Professional Scrum Master (PSM-1) Assesment Guide
 ---
 
-Most Recently I have been studying for the Professional Scrum Master (PSM-1) assesment. Hoping it can serve as a guide to the [Scrum Guide](https://www.scrum.org/resources/scrum-guide?gclid=Cj0KCQjw0Mb3BRCaARIsAPSNGpV1sSOFNvBp2bRk7ENus1M8GDnCAJsLplWbACTIaLx20T5j6JVsl0kaAgfFEALw_wcB), I am sharing some Scrum concepts that helped me navigate through the framework. This article is not a replacement for the Scrum Guide but can be helpful in understanding the basics. As the guide states, scrum is lightweight, simple to understand, and difficult to master, therefore please feel free to consider the article as a first step to a journey. Please visit https://www.scrum.org/ for more.
+Most Recently I have been studying for the Professional Scrum Master (PSM-1) assessment. Hoping it serves as a guide to the [Scrum Guide](https://www.scrum.org/resources/scrum-guide?gclid=Cj0KCQjw0Mb3BRCaARIsAPSNGpV1sSOFNvBp2bRk7ENus1M8GDnCAJsLplWbACTIaLx20T5j6JVsl0kaAgfFEALw_wcB), I am sharing some Scrum concepts that helped me navigate through the framework. This article is not a replacement for the Scrum Guide but can be helpful in understanding the basics. As the guide states, scrum is lightweight, simple to understand, and difficult to master, therefore please feel free to consider the article as a first step to a journey. Please visit https://www.scrum.org/ for more.
 
 <span style="text-decoration:underline;">A framework</span> in which people address complex adaptive problems while delivering products of highest possible value.
 
