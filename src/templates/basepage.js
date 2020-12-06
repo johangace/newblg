@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 import SEO from "../components/seo";
 import "../style/basepage.less";
 
-export default function({ data }) {
+export default function ({ data }) {
     return typeof window !== `undefined` ? (
         <Layout>
             <SEO
@@ -28,7 +28,7 @@ export default function({ data }) {
                             <p> I would love to learn about your projects.</p>
 
                             <a href="mailto:hello@johangace.com?">
-                                <h4> hello@johangace.com</h4>
+                                <h4> hello@digistudio.io</h4>
                             </a>
                             <a href="mailto:hello@johangace.com?">
                                 <img

@@ -5,7 +5,7 @@ image: ./main.jpeg
 date: 2020-04-20
 ---
 
-Driven by curiosity and the love of craft, I enjoy making
+I am driven by curiosity and the love of craft and  I enjoy making
 beautiful and bold Web Applications.
 
 Johan Gace

@@ -28,7 +28,7 @@ class PortfolioList extends React.Component {
     }
 }
 
-export default function({ data, pathContext }) {
+export default function ({ data, pathContext }) {
     return typeof window !== `undefined` ? (
         <Layout>
             <SEO lang="en" title="Portfolio" />

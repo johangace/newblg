@@ -4,7 +4,7 @@ date: 2020-01-29
 template: blog
 image: ./coding.jpg
 banner: ./coding.jpg
-description: Begginer's guide to programming.
+description: Beginner's guide to programming.
 ---
 
 <h6> Is Coding for me? </h6>

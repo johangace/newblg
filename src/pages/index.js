@@ -15,7 +15,7 @@ class IndexPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            winHeight: "100vh"
+            winHeight: "100vh",
         };
         // this.width = window.innerWidth;
         if (typeof window === "undefined") {
@@ -86,7 +86,7 @@ class IndexPage extends React.Component {
     // }
     setWindowHeight() {
         this.setState({
-            winHeight: window.innerHeight
+            winHeight: window.innerHeight,
         });
     }
     render() {
@@ -184,13 +184,13 @@ class IndexPage extends React.Component {
                                 items={[
                                     "I am a Web Developer.",
                                     " I craft Digital Experiences.",
-                                    "I Love to Design & Build things."
+                                    "I Love to Design & Build things.",
                                 ]}
                             />
                         </h1>
                         <div className="container">
-                            <hr className="v-line" />
-                            <a className="arrow ">scroll...</a>
+                            {/* <hr className="v-line" /> */}
+                            <a className="arrow ">............</a>
                         </div>
                     </div>
 
@@ -202,7 +202,7 @@ class IndexPage extends React.Component {
                     </div>
                 </div>
 
-                <PortfolioList />
+                {/* <PortfolioList /> */}
                 <BlogList />
 
                 {/* <Contact /> */}
