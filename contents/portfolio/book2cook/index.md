@@ -1,5 +1,5 @@
 ---
-title: Book2Cook
+title: Book2Cook - Ruby
 description: Make your CookBook from scratch!
 date: 2019-12-28
 template: portfolio

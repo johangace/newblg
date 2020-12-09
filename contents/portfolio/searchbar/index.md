@@ -1,5 +1,5 @@
 ---
-title: SearchBar
+title: SearchBar - React.js
 description: SearchBAR App is the Bartender's cheatsheet to unique cocktails.
 date: 2019-07-28
 template: portfolio
