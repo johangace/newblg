@@ -182,7 +182,7 @@ class IndexPage extends React.Component {
                                 pauseInterval={8000}
                                 // eraseMode={"overwrite"}
                                 items={[
-                                    "I am a Web Developer.",
+                                    "I am a Product Developer.",
                                     " I craft Digital Experiences.",
                                     "I Love to Design & Build things.",
                                 ]}

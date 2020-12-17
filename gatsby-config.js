@@ -4,8 +4,8 @@ let siteMetadata = {
     logo: `/images/JG.svg`,
     icon: `/images/waving.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `Web Developer`,
-    description: `I Love to Design and Make things.`,
+    introTag: `Product Developer`,
+    description: `I Love to Design and Build things.`,
     author: `Johan`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -14,20 +14,20 @@ let siteMetadata = {
     navLinks: [
         {
             name: "HOME",
-            url: "/"
+            url: "/",
         },
         {
             name: "ABOUT",
-            url: "/about"
+            url: "/about",
         },
         {
             name: "BLOG",
-            url: "/blog"
+            url: "/blog",
         },
         {
             name: "PORTFOLIO",
-            url: "/portfolio"
-        }
+            url: "/portfolio",
+        },
         // {
         //     name: "CONTACT",
         //     url: "/contact"
@@ -40,25 +40,25 @@ let siteMetadata = {
         // },
         {
             name: "GitHub",
-            url: "https://github.com/johangace"
-        }
+            url: "https://github.com/johangace",
+        },
     ],
     social: [
         {
             name: "Twitter",
             icon: "/images/Twitter.svg",
-            url: "https://twitter.com/JohanGace"
+            url: "https://twitter.com/JohanGace",
         },
         {
             name: "Instagram",
             icon: "/images/Instagram.svg",
-            url: "https://www.instagram.com/instagace/"
+            url: "https://www.instagram.com/instagace/",
         },
         {
             name: "GitHub",
             icon: "/images/github.png",
-            url: "https://github.com/johangace"
-        }
+            url: "https://github.com/johangace",
+        },
         // {
         //     name: "Youtube",
         //     icon: "/images/Youtube.svg",
@@ -73,11 +73,11 @@ let siteMetadata = {
     ],
     contact: {
         api_url: "./test.json",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@johangace.com"
+        description: ``,
+        mail: "hello@digistudio.io",
         // phone: "000-000-0000",
         // address: "1234 \nLocation \nLocation"
-    }
+    },
 };
 
 module.exports = {
@@ -94,24 +94,24 @@ module.exports = {
                     {
                         resolve: `gatsby-remark-images`,
                         options: {
-                            maxWidth: 1280
-                        }
-                    }
-                ]
-            }
+                            maxWidth: 1280,
+                        },
+                    },
+                ],
+            },
         },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `contents`,
-                path: `${__dirname}/contents/`
-            }
+                path: `${__dirname}/contents/`,
+            },
         },
         {
             resolve: `gatsby-plugin-less`,
             options: {
-                strictMath: true
-            }
-        }
-    ]
+                strictMath: true,
+            },
+        },
+    ],
 };
