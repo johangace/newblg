@@ -171,7 +171,7 @@ class IndexPage extends React.Component {
                                 <div className="fontiy">
                                     I Love to Design & Build things.
                                     <Typing.Reset count={1} delay={500} />
-                                </div>
+                                </div>t
                                 <Typing.Reset count={1} delay={500} />
                                 <Cursor />
                             </Typing> */}
@@ -182,7 +182,7 @@ class IndexPage extends React.Component {
                                 pauseInterval={8000}
                                 // eraseMode={"overwrite"}
                                 items={[
-                                    "I am a Product Developer.",
+                                    "I am a UX Engineer.",
                                     " I craft Digital Experiences.",
                                     "I Love to Design & Build things.",
                                 ]}

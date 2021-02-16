@@ -8,11 +8,11 @@ image: ./record.png
 
 <br> 
 
-**This Application was selected as the best coding project on [Wyncode's](htttps://wyncode.co) Cohort 34 Pitch Night.**
 
-[Link to App](https://miamislices.netlify.app/)
 
  <img alt="Miami" src="/record.png">
+ 
+[Link to App](https://miamislices.netlify.app/)
 
  A website for a local pizza joint called Miami Slices inspired by [Master Gatsby Course](https://mastergatsby.com/) from Wes Bos. Built with Gatsby.js and a Headless CMS with Sanity.IO
 

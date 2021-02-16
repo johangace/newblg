@@ -25,7 +25,13 @@ export default function ({ data }) {
                         </div>
                         <div className="header text-secondary">
                             <h1 className="say-hi"> Say Hi. </h1>
-                            <p> I would love to learn about your projects.</p>
+                            <p
+                                className="about"
+                                style={{ fontSize: 18, width: 500 }}
+                            >
+                                {" "}
+                                I would love to learn about your projects.
+                            </p>
 
                             <a href="mailto:hello@johangace.com?">
                                 <h4> hello@digistudio.io</h4>
@@ -38,15 +44,15 @@ export default function ({ data }) {
                                 />
                             </a>
 
-                            <div
-                                className="about"
-                                // dangerouslySetInnerHTML={{
-                                //     __html: data.markdownRemark.html
-                                // }}
-                            >
-                                Driven by curiosity and the love of craft, I
-                                enjoy making beautiful and bold Web
-                                Applications.
+                            <div className="about">
+                                In my work, I am driven by curiosity and the
+                                love of craft. I enjoy combining technologies to
+                                build purposeful human-centered applications.
+                                Taking a pragmatic approach I focus on design
+                                thinking, rapid prototyping and agile
+                                development methodologies for a delightful
+                                digital experience . Let's get in touch! Johan
+                                Gace Miami, FL
                                 <div>Johan Gace,</div> <div> Miami, FL</div>
                             </div>
                         </div>

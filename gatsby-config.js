@@ -4,7 +4,7 @@ let siteMetadata = {
     logo: `/images/JG.svg`,
     icon: `/images/waving.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `Product Developer`,
+    introTag: `UX Engineer`,
     description: `I Love to Design and Build things.`,
     author: `Johan`,
     blogItemsPerPage: 10,

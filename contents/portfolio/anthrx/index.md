@@ -10,15 +10,19 @@ image: ./anthr.png
 
 
 
-[Link to Site](https://AnthrX.com)
+
 
  <img alt="Anthr" src="/anthr.png">
 
-An online store for a Miami fashion company.
+[Link to Site](https://AnthrX.com)
 
+An e-commerce shopify store for a Miami fashion company.  
 
-- Design
+Contribution: 
+- UX/ UIX Design
 - Custom CSS
 - Shopify Store
+- Information Architecture
+
 
 
