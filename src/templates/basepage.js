@@ -45,13 +45,12 @@ export default function ({ data }) {
                             </a>
 
                             <div className="about">
-                                In my work, I am driven by curiosity and the
-                                love of craft. I enjoy combining technologies to
-                                build purposeful human-centered applications.
-                                Taking a pragmatic approach I focus on design
-                                thinking, rapid prototyping and agile
-                                development methodologies for a delightful
-                                digital experience . Let's get in touch! Johan
+                                In my work I am driven by curiosity and the love
+                                of craft. I enjoy combining t`echnologies for to
+                                build purposeful human-centered applications. I
+                                use design thinking, rapid prototyping and agile
+                                development methodologies to create delightful
+                                digital experiences. Let's get in touch! Johan
                                 Gace Miami, FL
                                 <div>Johan Gace,</div> <div> Miami, FL</div>
                             </div>
