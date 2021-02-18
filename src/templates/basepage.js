@@ -50,8 +50,7 @@ export default function ({ data }) {
                                 build purposeful human-centered applications. I
                                 use design thinking, rapid prototyping and agile
                                 development methodologies to create delightful
-                                digital experiences. Let's get in touch! Johan
-                                Gace Miami, FL
+                                digital experiences. Let's get in touch!
                                 <div>Johan Gace,</div> <div> Miami, FL</div>
                             </div>
                         </div>
