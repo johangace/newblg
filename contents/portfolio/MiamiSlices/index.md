@@ -1,5 +1,5 @@
 ---
-title: Miami Slices -Gatsby.js
+title: Miami Slices - Web App
 description: Pizza Site - using React.js, Graphql and a Headless CMS 
 date: 2020-12-5
 template: portfolio

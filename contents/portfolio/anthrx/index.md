@@ -1,6 +1,6 @@
 ---
-title: ANTHR - Shopify
-description: E-Commerce - Shopify Store
+title: ANTHR- Shopify Development 
+description: E-Commerce - Fashion Shopify Store
 date: 2020-12-01
 template: portfolio
 image: ./anthr.png

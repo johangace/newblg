@@ -1,7 +1,7 @@
 ---
-title: CloudMiser -Gatsby.js
-description: Cloud Advisors landing site using React.js 
-date: 2020-12-5
+title: CloudMiser - Landing Page
+description: Cloud Advisors landing site using  Gatsby.js
+date: 2020-12-8
 template: portfolio
 image: ./record.png
 ---
