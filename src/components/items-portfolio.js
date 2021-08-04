@@ -27,7 +27,7 @@ class PortfolioItem extends React.Component {
                         </Link>
                     </div>
                     <div className="col m6 content">
-                        <h2 className="text-primary pseudo-divider">
+                    <h6 className="text-secondary orange">
                             <Link
                                 to={this.props.data.node.fields.slug}
                                 title={this.props.data.node.frontmatter.title}
@@ -37,7 +37,7 @@ class PortfolioItem extends React.Component {
                             >
                                 {this.props.data.node.frontmatter.title}
                             </Link>
-                        </h2>
+                        </h6>
                         <p className="text-tertiary">
                             {this.props.data.node.frontmatter.description}
                         </p>
