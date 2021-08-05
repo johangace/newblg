@@ -46,8 +46,8 @@ export default function ({ data }) {
 
                             <div className="about">
                                 In my work I am driven by curiosity and the love
-                                of craft. I enjoy combining t`echnologies for to
-                                build purposeful human-centered applications. I
+                                of craft. I enjoy combining different technologies to
+                               design & build purposeful human-centered applications. I
                                 use design thinking, rapid prototyping and agile
                                 development methodologies to create delightful
                                 digital experiences. Let's get in touch!
