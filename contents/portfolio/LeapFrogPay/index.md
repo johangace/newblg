@@ -1,7 +1,7 @@
 ---
 title: Leapfrog Pay - Product Design
 description: A Digital Wallet for Remittance Payments
-date: 2021-03-5
+date: 2021-8-5
 template: portfolio
 image: ./leapfrog.jpg
 ---

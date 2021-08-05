@@ -13,19 +13,19 @@ let siteMetadata = {
     switchTheme: true,
     navLinks: [
         {
-            name: "HOME",
+            name: "Home",
             url: "/",
         },
         {
-            name: "ABOUT",
+            name: "About",
             url: "/about",
         },
         {
-            name: "BLOG",
+            name: "Blog",
             url: "/blog",
         },
         {
-            name: "PORTFOLIO",
+            name: "Portfolio",
             url: "/portfolio",
         },
         // {

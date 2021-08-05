@@ -6,43 +6,36 @@ import "../style/list-portfolio.less";
 class PortfolioItem extends React.Component {
     render() {
         return (
-            <div className="item col s12">
+            <div className=" col m6 ">
                 <div className="row flex">
-                    <div className="col m6 image">
-                        <Img
-                            className="portfolio-img"
-                            fluid={
-                                this.props.data.node.frontmatter.image
-                                    .childImageSharp.fluid
-                            }
-                        />
-                        <Link
-                            to={this.props.data.node.fields.slug}
-                            title={this.props.data.node.frontmatter.title}
-                            aria-label={this.props.data.node.frontmatter.title}
-                            className="overlay-link"
-                            style={{ opacity: 0 }}
-                        >
-                            {this.props.data.node.frontmatter.title}
-                        </Link>
-                    </div>
-                    <div className="col m6 content">
-                    <h6 className="text-secondary orange">
-                            <Link
+                    <div className="col m6 image orange">
+                    <Link
                                 to={this.props.data.node.fields.slug}
                                 title={this.props.data.node.frontmatter.title}
                                 aria-label={
                                     this.props.data.node.frontmatter.title
                                 }
                             >
+                        <Img
+                            fluid={
+                                this.props.data.node.frontmatter.image
+                                    .childImageSharp.fluid
+                            }
+                            style={{width:'auto', height:'500px'}}
+                            
+                        />
+                       <h6 className="text-secondary orange">
                                 {this.props.data.node.frontmatter.title}
-                            </Link>
                         </h6>
                         <p className="text-tertiary">
                             {this.props.data.node.frontmatter.description}
                         </p>
+                        </Link>
                     </div>
-                </div>
+                    </div>
+                    {/* <div className="col m6 content"> */}
+                   
+                {/* </div> */}
             </div>
         );
     }
