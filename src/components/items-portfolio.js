@@ -6,9 +6,9 @@ import "../style/list-portfolio.less";
 class PortfolioItem extends React.Component {
     render() {
         return (
-            <div className=" col m6">
+            <div className="col m6" >
                 <div className="row flex">
-                    <div className="col m6 image orange ">
+                    <div className="col m6 image orange " >
                     <Link
                                 to={this.props.data.node.fields.slug}
                                 title={this.props.data.node.frontmatter.title}

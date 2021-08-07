@@ -1,5 +1,5 @@
 ---
-title: OWNI NFT - Website
+title: OWNI NFT
 description: Site built for a NFT blockchain Platform
 date: 2021-4-5
 template: portfolio
