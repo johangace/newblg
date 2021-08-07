@@ -1,9 +1,10 @@
 ---
 title: ANTHR- Shopify Development 
-description: E-Commerce - Fashion Shopify Store
+description: Fashion Store
 date: 2020-12-01
 template: portfolio
 image: ./anthr.png
+tags: Shopify | E-Commerce
 ---
 
 <br> 

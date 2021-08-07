@@ -1,9 +1,10 @@
 ---
 title: OWNI NFT - Website
-description: A Wordpress Site built for a NFT blockchain Platform
+description: Site built for a NFT blockchain Platform
 date: 2021-4-5
 template: portfolio
 image: ./record.png
+tags: Website | WordPress
 ---
 
 <br> 

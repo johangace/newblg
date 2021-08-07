@@ -54,19 +54,6 @@ export default function ({ data }) {
                                 <div>Johan Gace,</div> <div> Miami, FL</div>
                             </div>
                         </div>
-
-                        {/* {data.markdownRemark.frontmatter.image && (
-                            <div className="right">
-                                <div className="img">
-                                    <Img
-                                        fluid={
-                                            data.markdownRemark.frontmatter
-                                                .image.childImageSharp.fluid
-                                        }
-                                    />
-                                </div>
-                            </div>
-                        )} */}
                     </div>
                 </div>
             </div>

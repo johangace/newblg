@@ -1,9 +1,10 @@
 ---
-title: SearchBar - Web APP
+title: SearchBar
 description: SearchBAR App is the Bartender's cheatsheet to unique cocktails.
 date: 2019-07-28
 template: portfolio
 image: ./searchbar.png
+tags: Mini Web App | React
 ---
 
 <h6>SearchBAR App is the Bartender's cheatsheet to unique cocktails. </h6>

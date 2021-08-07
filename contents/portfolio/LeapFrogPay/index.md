@@ -1,9 +1,10 @@
 ---
-title: Leapfrog Pay - Product Design
+title: Leapfrog Pay
 description: A Digital Wallet for Remittance Payments
 date: 2021-8-5
 template: portfolio
 image: ./leapfrog.jpg
+tags: Product Design | Adobe XD
 ---
 
 

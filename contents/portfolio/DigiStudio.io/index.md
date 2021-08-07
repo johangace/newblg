@@ -1,9 +1,10 @@
 ---
-title: DigiStudio.io - Website
-description: Personal Web Designer Freelance Website in Wordpress
+title: DigiStudio.io
+description: Web Designer Freelance Website 
 date: 2021-5-5
 template: portfolio
 image: ./record.png
+tags: Website | WordPress
 ---
 
 <br> 

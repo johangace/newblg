@@ -6,9 +6,9 @@ import "../style/list-portfolio.less";
 class PortfolioItem extends React.Component {
     render() {
         return (
-            <div className=" col m6 ">
+            <div className=" col m6">
                 <div className="row flex">
-                    <div className="col m6 image orange">
+                    <div className="col m6 image orange ">
                     <Link
                                 to={this.props.data.node.fields.slug}
                                 title={this.props.data.node.frontmatter.title}
@@ -21,7 +21,7 @@ class PortfolioItem extends React.Component {
                                 this.props.data.node.frontmatter.image
                                     .childImageSharp.fluid
                             }
-                            style={{width:'auto', height:'500px'}}
+                            style={{width:'auto', height:'400px'}}
                             
                         />
                        <h6 className="text-secondary orange">
@@ -30,12 +30,12 @@ class PortfolioItem extends React.Component {
                         <p className="text-tertiary">
                             {this.props.data.node.frontmatter.description}
                         </p>
+                        <p className="text-tag">
+                            {this.props.data.node.frontmatter.tags}
+                        </p>
                         </Link>
                     </div>
                     </div>
-                    {/* <div className="col m6 content"> */}
-                   
-                {/* </div> */}
             </div>
         );
     }

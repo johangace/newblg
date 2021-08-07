@@ -1,9 +1,10 @@
 ---
-title: Miami Slices - Web App
-description: Pizza Site - using React.js, Graphql and a Headless CMS 
+title: Miami Slices
+description: Pizza Site
 date: 2020-12-5
 template: portfolio
 image: ./record.png
+tags: Web App | Gatsby.js | React | GraphQl 
 ---
 
 <br> 

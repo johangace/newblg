@@ -1,9 +1,10 @@
 ---
-title: Book2Cook - Web App
+title: Book2Cook
 description: Make your CookBook from scratch!
 date: 2019-12-28
 template: portfolio
 image: ./b2c.png
+tags: Web App | Ruby On Rails | React.js
 ---
 
 <br> 

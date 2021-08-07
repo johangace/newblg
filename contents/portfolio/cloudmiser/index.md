@@ -1,9 +1,10 @@
 ---
-title: CloudMiser - Landing Page
-description: Cloud Advisors landing site using  Gatsby.js
+title: CloudMiser 
+description: Cloud Consulting Landing Page
 date: 2020-12-8
 template: portfolio
 image: ./record.png
+tags: Website | Gatsby.js | Javascript
 ---
 
 <br> 
