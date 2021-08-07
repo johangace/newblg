@@ -26,14 +26,13 @@ export default function ({ data }) {
                         <div className="header text-secondary">
                             <h1 className="say-hi"> Say Hi. </h1>
                             <p
-                                className="about"
                                 style={{ fontSize: 18, width: 500 }}
                             >
                                 {" "}
                                 I would love to learn about your projects.
                             </p>
 
-                            <a href="mailto:hello@johangace.com?">
+                            <a href="mailto:hello@digistudio.io?">
                                 <h4> hello@digistudio.io</h4>
                             </a>
                             <a href="mailto:hello@johangace.com?">
@@ -44,14 +43,14 @@ export default function ({ data }) {
                                 />
                             </a>
 
-                            <div className="about">
-                                In my work I am driven by curiosity and the love
+                            <div className="about" >
+                                  {"  "}In my work I am driven by curiosity and the love
                                 of craft. I enjoy combining different technologies to
                                design & build purposeful human-centered applications. I
                                 use design thinking, rapid prototyping and agile
                                 development methodologies to create delightful
                                 digital experiences. Let's get in touch!
-                                <div>Johan Gace,</div> <div> Miami, FL</div>
+                                <div>Johan Gace,</div> 
                             </div>
                         </div>
                     </div>

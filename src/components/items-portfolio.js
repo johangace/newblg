@@ -24,6 +24,8 @@ class PortfolioItem extends React.Component {
                             style={{width:'auto', height:'400px'}}
                             
                         />
+
+                        <div style={{margin:'25px 0px'}}> 
                        <h6 className="text-secondary orange">
                                 {this.props.data.node.frontmatter.title}
                         </h6>
@@ -33,7 +35,9 @@ class PortfolioItem extends React.Component {
                         <p className="text-tag">
                             {this.props.data.node.frontmatter.tags}
                         </p>
+                        </div>
                         </Link>
+
                     </div>
                     </div>
             </div>

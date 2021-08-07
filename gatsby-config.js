@@ -1,3 +1,4 @@
+
 let siteMetadata = {
     title: `Johan Gace.`,
     capitalizeTitleOnHome: true,
@@ -5,7 +6,7 @@ let siteMetadata = {
     icon: `/images/waving.png`,
     titleImage: `/images/wall.jpg`,
     introTag: `UX Engineer`,
-    description: `I Love to Design and Build things.`,
+    description: `I enjoy Designing and Building things.`,
     author: `Johan`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
@@ -56,7 +57,7 @@ let siteMetadata = {
         },
         {
             name: "GitHub",
-            icon: "/images/github.png",
+            icon: "/images/git.png",
             url: "https://github.com/johangace",
         },
         // {
