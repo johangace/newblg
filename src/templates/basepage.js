@@ -26,9 +26,8 @@ export default function ({ data }) {
                         <div className="header text-secondary">
                             <h1 className="say-hi"> Say Hi. </h1>
                             <p
-                                style={{ fontSize: 18, width: 500 }}
+                                style={{ fontSize: 18}}
                             >
-                                {" "}
                                 I would love to learn about your projects.
                             </p>
 

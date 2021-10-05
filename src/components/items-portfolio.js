@@ -21,7 +21,7 @@ class PortfolioItem extends React.Component {
                                 this.props.data.node.frontmatter.image
                                     .childImageSharp.fluid
                             }
-                            style={{width:'auto', height:'400px'}}
+                            style={{minWidth: 350, width:'auto', height:400}}
                             
                         />
 

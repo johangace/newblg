@@ -15,6 +15,6 @@ tags: Website | WordPress
  
 
 
- My personal Freelance Website made with Wordpress and Elementor. https://digistudio.io
+ Freelance Website made with Wordpress and Elementor. https://digistudio.io
 
 [Link to Website](https://digistudio.io)
