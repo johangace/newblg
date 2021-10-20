@@ -13,10 +13,13 @@ tags: Product Design | Adobe XD
 
 ###### Project Details:
 
-**Timeframe:** 3 week sprint
-**Role:** UX /UI Designer
-**Team:** Personal Project
-**Tools:** Adobe XD, Adobe Illustrator, Google Suite, Balsamiq, Evernote
+ **Timeframe:** 3 week sprint
+
+ **Role:** UX /UI Designer
+
+ **Team:** Personal Project
+
+ **Tools:** Adobe XD, Adobe Illustrator, Google Suite, Balsamiq, Evernote
 
 ###### Summary: 
 
@@ -26,16 +29,17 @@ Leapfrog is a digital wallet for remittance payments in Albania.
 
 
 ###### Clickable Prototype Below 
-Feel free to navigate through the menu for full functionality. 
+Navigate through the menu for full functionality. 
+
 <center>
 <iframe width="375" height="812" src="https://xd.adobe.com/embed/be363fbc-3ac4-43bf-9600-a9d91104bb8f-eb65/" frameborder="0" allowfullscreen></iframe></center>
 
 ###### The Problem: 
- Remittance payments have been a well known issue for immigrants and their families. These payments are slow costly and infeasible for many citizens.  About 400 Million euros are brought in Albania from Immigrants and about 25% of the population has benefited from remittances. The average remittance payment costs about 7-8% of the amount. Companies such as Western Union offer cash solutions but they have not adapted a viable digital payment solution. Allowing cross border payments will be the first opening to democratizing digital payments in Albania.
-
+ Remittance payments in Albania are slow, costly and infeasible for many citizens. About 25% of the population is a beneficiary of these payments and  the average transaction fee costs about 7-8% of the amount. Some companies offer cash solution but the digital payments are almost inexistent. 
 
 ###### The Solution: 
-Our solution eliminates financial institutions, the difficulties of Albanians to send money cross borders and offers a simple way for receivers of the remittances to accept use it on digital purchases and later brick and mortar merchants. Leapfrog removes  the difficulties of Albanians to obtain a credit card and the offers a simple way for  merchants to accept payments.
+1. Leapfrog removes the difficulties of Albanians for  obtaining a card and offers a simple way for  merchants to accept card payments.
+2. Leapfrog offers an easy solution for Albanians to send money cross borders. 
 
 ###### Value Proposition: 
 1. Cross border  and P2P payments are expensive an ineffective in Albania. Leapfrog enables users to send money to each other in seconds. 
@@ -66,6 +70,7 @@ our product is a new opportunity to increase revenue, and services that are only
 Unlike any financial services company, Leapfrog opens a direct line of payment between merchants and customers
 ----
 
+
 ##### The Sprint Process
 <center><img alt="Wallet" src="/sprint.png"></center>
 
@@ -74,22 +79,66 @@ Unlike any financial services company, Leapfrog opens a direct line of payment b
  - UX: User's needs, 
  - Business: The digital payments market, 
  - Engineering: Technical possibilities.
+ - User Pain Points
+
  <img alt="LigntningTalks" src="/360.png">
 
 
+##### User Research Summary
+User research was conducted through interviews with three types of users. Merchants who accept payments, immigrants who send remittance payments and likely beneficiaries of remittances.  
+Selected users: 
+- I focused on the bankless population of Albania. Data revealed that more than half of Albanians do not have a bank account. 
+- For the purposes of this study I selected users are in possession of and have basic knowledge of a smartphone.  Data shows that about 75% of the Albanian population has access to a smartphone.
 
- ***Understand** : 
+##### Pain Points
+ 1.  Remitance Payments: The average cost of a remittance transfer is 7-8% which was rated as Too High from users. 
+ 2. Lack of Bank Accounts
+ 3. Lack of a cryptocurrency exchange network operating in Albania. There are no cryptocurrency wallets serving in Albania currently. Binance, and Coinbase have not yet extended their services. 
+ 4. No viable Electronic Payment solutions: Through interviews it was revealed that most users do not have a way for processing an online transaction online.
+
+
+
+##### Personas 
+ ***Define** : 
  - Finding a strategy to arrive to solution.
  - The central user journey
  - Goal positioning 
+
+##### Persona 1: Mark 
+<center> <img alt="Wallet" style= "width:700; height:auto;" src="/mark.png"> </center>
+
+
+##### Persona 1: Sabrina 
+<center> <img alt="Wallet" style= "width:700; height:auto;" src="/sabrina.png"> </center>
+
+
+
  ***Diverge** : 
  - Generating Solutions
  - Sketching Ideas
+ - User Flow Chart
+
+ ##### User Flow Chart
+ 
+
+   <img alt="user flow chart" src="/userflow.png">
+
+
+ ##### 4 sketches in 4 minutes 
+  Brainstorming ideas and sketching potential solutions.
+
    <img alt="sketches" src="/walletfirst.jpg">
+
 
 
  ***Decide** : 
  - Refine choices 
+ - Usability findings in low fidelity mockups
+
+ ##### HomeScreen
+
+   <img alt="homeScreen" src="/home.png">
+
 
 
  ***Prototype** :
