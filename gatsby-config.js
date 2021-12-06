@@ -75,7 +75,7 @@ let siteMetadata = {
     contact: {
         api_url: "./test.json",
         description: ``,
-        mail: "hello@digistudio.io",
+        mail: "gace.johan3@gmail.com",
         // phone: "000-000-0000",
         // address: "1234 \nLocation \nLocation"
     },

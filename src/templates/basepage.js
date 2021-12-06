@@ -31,10 +31,10 @@ export default function ({ data }) {
                                 I would love to learn about your projects.
                             </p>
 
-                            <a href="mailto:hello@digistudio.io?">
-                                <h4> hello@digistudio.io</h4>
+                            <a href="gace.johan3@gmail.com?">
+                                <h4>gace.johan3@gmail.com</h4>
                             </a>
-                            <a href="mailto:hello@johangace.com?">
+                            <a href="mailto:gace.johan3@gmail.com?">
                                 <img
                                     alt="email"
                                     className="envelope"
