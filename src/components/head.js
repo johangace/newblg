@@ -33,7 +33,7 @@ function Header() {
                 href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;900&display=swap"
                 rel="stylesheet"
             ></link>
-            >
+       <title>Johan Gace</title>
         </Helmet>
     );
 }
