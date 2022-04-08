@@ -18,23 +18,7 @@ class BlogItem extends React.Component {
         return (
             <div className="item col s12 ">
                 <div className="box">
-                    <div className="image">
-                        {/* <Img
-                            fluid={
-                                this.props.data.node.frontmatter.image
-                                    .childImageSharp.fluid
-                            }
-                        /> */}
-                        <Link
-                            to={this.props.data.node.fields.slug}
-                            title={this.props.data.node.frontmatter.title}
-                            aria-label={this.props.data.node.frontmatter.title}
-                            className="overlay-link"
-                            style={{ opacity: 0 }}
-                        >
-                            {this.props.data.node.frontmatter.title}
-                        </Link>
-                    </div>
+                
                     <div className="content">
                         <h3 className="text-secondary orange">
                             <Link

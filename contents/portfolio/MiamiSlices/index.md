@@ -1,7 +1,7 @@
 ---
 title: Miami Slices
-description: Pizza Site
-date: 2020-12-5
+description: Mini Web App built with React
+date: 2021-2-5
 template: portfolio
 image: ./record.png
 tags: Web App | Gatsby.js | React | GraphQl 

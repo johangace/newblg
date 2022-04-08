@@ -4,7 +4,7 @@ description: A Digital Wallet for Remittance Payments
 date: 2021-8-5
 template: portfolio
 image: ./leapfrog.jpg
-tags: Product Design | Adobe XD
+tags: Product Design | UX Design | Adobe XD
 ---
 
 
