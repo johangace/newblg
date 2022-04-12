@@ -3,7 +3,7 @@ title: Website Design & Development Projects
 description: Website Projects
 date: 2020-5-5
 template: portfolio
-image: ./dd.jpeg
+image: ./gace.png
 tags: Website | WordPress | Webflow
 ---
 
@@ -16,12 +16,12 @@ tags: Website | WordPress | Webflow
 }
 .heading1 {
     color: linear-gradient(to right, #c21500, #ffc500);
-    font-weight:600;
+    font-weight:500;
     font-size: 30px;
 }
 .heading2 {
     color: linear-gradient(to right, #c21500, #ffc500);
-    font-weight:600;
+    font-weight:500;
     font-size: 30px;
 }
 

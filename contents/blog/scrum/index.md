@@ -17,7 +17,7 @@ Scrum **is**:
 -   Simple to understand
 -   Difficult to master
 
-Scrum** is** **not**:
+Scrum **is not**:
 
 -   A process
 -   Technique
@@ -68,7 +68,7 @@ The scrum team and stakeholders agree to be Open about the work and challenges b
 Scrum teams are self organizing and cross-functional.
 
 -   **Self organizing:** The team chooses <span style="text-decoration:underline;">how**\_ \_**</span>to organize work.
--   **Cross-functional: **The team has <span style="text-decoration:underline;">all the competencies </span>needed to accomplish the work.
+-   **Cross-functional:** The team has <span style="text-decoration:underline;">all the competencies </span>needed to accomplish the work.
 
 Scrum teams deliver products <span style="text-decoration:underline;">iteratively and incrementally.</span>
 
@@ -89,7 +89,7 @@ Scrum teams deliver products <span style="text-decoration:underline;">iterativel
 
 **Scrum Master**
 
-**Scrum Master serves to PO: **
+**Scrum Master serves to PO:**
 
 -   Ensures that the goals, scope and product are understood by everyone.
 -   Finds techniques for backlog management.
@@ -105,7 +105,7 @@ Scrum teams deliver products <span style="text-decoration:underline;">iterativel
 -   Facilitate Scrum events.
 -   Coach the dev team in places where Scrum is not fully adopted.
 
-**Scrum Master serves the organization: **
+**Scrum Master serves the organization:**
 
 -   Lead the organization to scrum adaptation.
 -   Plan scrum implementation within the organization.
@@ -141,7 +141,7 @@ The sprint contains:
 -   Only the Product<span style="text-decoration:underline;"> Owner</span> has the authority to cancel the sprint.
 -   A sprint should be canceled <span style="text-decoration:underline;">if the goal becomes obsolete</span>.
 
-**Sprint Planning **
+**Sprint Planning**
 
 -   The sprint Planning happens by the <span style="text-decoration:underline;">entire scrum team</span> during the sprint planning.
 -   Sprint Planning is time-boxed to <span style="text-decoration:underline;">max 8 hours</span> for a one-month sprint.

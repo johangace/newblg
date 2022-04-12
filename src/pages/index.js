@@ -101,23 +101,6 @@ class IndexPage extends React.Component {
                         {/* <span>.</span> */}
 
                         <h1 className="caption text-secondary ">
-                            {/* <Typing loop={false} speed={90}>
-                                <div className="fonty" sp>
-                                    I am a web developer.
-                                </div>
-                                <Typing.Backspace count={21} delay={100} />
-                                <div className="fonty">
-                                    I craft Digital Experiences.
-                                </div>
-                                <Typing.Backspace count={28} delay={100} />
-                                <Typing.Delay ms={1000} />
-                                <div className="fontiy">
-                                    I Love to Design & Build things.
-                                    <Typing.Reset count={1} delay={500} />
-                                </div>t
-                                <Typing.Reset count={1} delay={500} />
-                                <Cursor />
-                            </Typing> */}
                             <ReactRotatingText
                                 typingInterval={120}
                                 color
