@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "./sectiontitle";
 import { StaticQuery, graphql } from "gatsby";
-import { PaperPlane, Mapmarker, Mobile, Envelope, Loading } from "./icons";
+import { PaperPlane, Envelope, Loading } from "./icons";
 import SocialLinks from "./sociallinks";
 import "../style/contact.less";
 
