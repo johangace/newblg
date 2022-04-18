@@ -1,7 +1,7 @@
 ---
 title: Niftsy App
 description: An art platform that brings NFTs into the physical world.
-date: 2021-8-5
+date: 2022-4-5
 template: portfolio
 image: ./mainFrame.png
 tags: Product Design | UX Design | Figma
