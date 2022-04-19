@@ -21,14 +21,14 @@ export default function({ data }) {
 								<img alt="Johan" src="/images/main-1.jpeg" />
 							</div>
 							<div className="header text-secondary">
-								<h1 className="say-hi" > Say Hi. </h1>
+								<h1 className="say-hi"> Say Hi. </h1>
 								<p style={{ fontSize: 18 }}>I would love to learn about your ideas.</p>
 
-								<a href="gace.johan3@gmail.com?">
-									<h4>gace.johan3@gmail.com</h4>
-								</a>
 								<a href="mailto:gace.johan3@gmail.com?">
-									<img alt="email" className="envelope" src="/images/mail.png" />
+									<h4>
+										<img alt="email" className="envelope" src="/images/mail.png" />
+										gace.johan3@gmail.com
+									</h4>
 								</a>
 
 								<div className="about">
@@ -36,11 +36,9 @@ export default function({ data }) {
 									different technologies to design & build purposeful human-centered applications. I
 									use design thinking, rapid prototyping and agile development methodologies to create
 									delightful digital experiences.
-                                    <br/>
-
-                                    <br/> Let's get in touch!
-                                    <br/>                                    <br/>
-
+									<br />
+									<br /> Let's get in touch!
+									<br /> <br />
 									<div>Johan Gace, </div>
 									<div> From Somewhere in the world </div>
 								</div>
