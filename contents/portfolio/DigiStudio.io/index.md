@@ -11,7 +11,6 @@ tags: Website | WordPress | Webflow
 
 <style>
 .card {
-  /*margin: 100px auto;*/
   display: block;
 }
 .heading1 {
