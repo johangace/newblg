@@ -8,8 +8,8 @@ let siteMetadata = {
     introTag: `UX Engineer`,
     description: `I enjoy Designing and Building things.`,
     author: `Johan`,
-    blogItemsPerPage: 10,
-    portfolioItemsPerPage: 10,
+    blogItemsPerPage: 100,
+    portfolioItemsPerPage: 100,
     darkmode: false,
     switchTheme: true,
     navLinks: [
