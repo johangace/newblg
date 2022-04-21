@@ -132,8 +132,7 @@ class IndexPage extends React.Component {
 								<Helmet>
 									<script async src="https://platform.twitter.com/widgets.js" charset="utf-8" />
 								</Helmet>
-							</div>
-							{this.props.data.site.siteMetadata.darkmode? (
+							{this.props.data.site.siteMetadata.darkmode ? (
 								<a class="twitter-timeline" href="https://twitter.com/JohanGace?ref_src=twsrc%5Etfw">
 									Tweets 
 								</a>
@@ -146,7 +145,8 @@ class IndexPage extends React.Component {
 									Tweets 
 								</a>
 							)}
-					
+												</div>
+
 						</div>
 					</section>
 				</div>
