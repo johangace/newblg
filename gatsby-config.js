@@ -3,14 +3,14 @@ let siteMetadata = {
     title: `Johan Gace.`,
     capitalizeTitleOnHome: true,
     logo: `/images/JG.svg`,
-    icon: `/images/waving.png`,
+    icon: `/images/main-1.jpeg`,
     titleImage: `/images/wall.jpg`,
     introTag: `UX Engineer`,
     description: `I enjoy Designing and Building things.`,
     author: `Johan`,
     blogItemsPerPage: 100,
     portfolioItemsPerPage: 100,
-    darkmode: false,
+    darkmode: true,
     switchTheme: true,
     navLinks: [
         {
