@@ -124,10 +124,9 @@ class IndexPage extends React.Component {
 				</div>
 
 				{/* <PortfolioList /> */}
-				<div className="">
+				<div className="blg">
 					<BlogList />
-					<section id="blog" className="container">
-						<div className="box">
+						<div className="twitter">
 							<div className="content">
 								<Helmet>
 									<script async src="https://platform.twitter.com/widgets.js" charset="utf-8" />
@@ -150,7 +149,6 @@ class IndexPage extends React.Component {
 								)}
 							</div>
 						</div>
-					</section>
 				</div>
 
 				{/* <Contact /> */}
