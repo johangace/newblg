@@ -21,14 +21,12 @@ class IndexPage extends React.Component {
 		}
 	}
 
-	componentWillMount() {
+	componentDidMount() {
 		let darkMode = localStorage.getItem('darkMode');
 
 		this.setState({
 			darkMode: darkMode
 		});
-
-		console.log(this.state.darkMode, darkMode);
 		this.showTwitter(this.state.darkMode);
 	}
 
