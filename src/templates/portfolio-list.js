@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import PortfolioItems from "../components/items-portfolio";
 import SectionTitle from "../components/sectiontitle";
-import Pagination from "../components/pagination";
+// import Pagination from "../components/pagination";
 import SEO from "../components/seo";
 
 class PortfolioList extends React.Component {
@@ -16,10 +16,10 @@ class PortfolioList extends React.Component {
                         <SectionTitle title="Portfolio." />
                     </div>
                     <PortfolioItems data={query} />
-                    <Pagination
+                    {/* <Pagination
                         pathContext={this.props.pathContext}
                         type="portfolio"
-                    />
+                    /> */}
                 </section>
             );
         } else {

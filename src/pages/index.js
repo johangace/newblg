@@ -149,6 +149,7 @@ class IndexPage extends React.Component {
 									</a>
 								)}
 							</div>
+
 						</div>
 					</section>
 				</div>
