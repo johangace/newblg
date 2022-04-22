@@ -37,7 +37,7 @@ class IndexPage extends React.Component {
 		return typeof window !== `undefined` ? (
 			<Layout placeholder={false}>
 				<SEO lang="en" title={this.props.data.site.siteMetadata.title} />
-                
+
 				<div className="wall" style={{ height: this.state.winHeight + 'px' }}>
 					<div className="intro container">
 						<div className="tag-line text-secondary">
@@ -132,20 +132,23 @@ class IndexPage extends React.Component {
 								<Helmet>
 									<script async src="https://platform.twitter.com/widgets.js" charset="utf-8" />
 								</Helmet>
-							{this.props.data.site.siteMetadata.darkmode ? (
-								<a class="twitter-timeline" href="https://twitter.com/JohanGace?ref_src=twsrc%5Etfw">
-									Tweets 
-								</a>
-							) : (
-								<a
-									class="twitter-timeline"
-									// data-theme="dark"
-									href="https://twitter.com/JohanGace?ref_src=twsrc%5Etfw"
-								>
-									Tweets 
-								</a>
-							)}
-												</div>
+								{this.props.data.site.siteMetadata.darkmode ? (
+									<a
+										class="twitter-timeline"
+										href="https://twitter.com/JohanGace?ref_src=twsrc%5Etfw"
+									>
+										Tweets
+									</a>
+								) : (
+									<a
+										class="twitter-timeline"
+										// data-theme="dark"
+										href="https://twitter.com/JohanGace?ref_src=twsrc%5Etfw"
+									>
+										Tweets
+									</a>
+								)}
+							</div>
 
 						</div>
 					</section>
@@ -163,7 +166,7 @@ export const query = graphql`
 	query {
 		site {
 			siteMetadata {
-                darkmode
+				darkmode
 				title
 				capitalizeTitleOnHome
 				titleImage
