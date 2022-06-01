@@ -33,7 +33,7 @@
 		"react-rotating-text": "^1.4.1",
 		"react-sidebar": "^3.0.2",
 		"react-typing-animation": "^1.6.2",
-		"sharp": "^0.30.4",
+		"sharp": "^0.30.5",
 		"typewriter-effect": "^2.13.0"
 	},
 	"devDependencies": {
