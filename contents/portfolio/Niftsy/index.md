@@ -169,7 +169,7 @@ View the Niftsy’s high-fidelity prototype
 <br/>
 
 
-##### High Fidelity Prototype 
+##### Accesibility Considerations
 
  - Provided access to users who are vision impaired through adding alt text to images for screen readers.
  - Used icons to help make navigation easier.

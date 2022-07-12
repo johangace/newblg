@@ -27,6 +27,7 @@ class IndexPage extends React.Component {
 		this.setState({
 			darkMode: darkMode
 		});
+        
 		this.showTwitter(this.state.darkMode);
 	}
 
@@ -34,7 +35,7 @@ class IndexPage extends React.Component {
 		return (
 			<a
 				class="twitter-timeline"
-				data-theme={mode === 'true' ? 'dark' : 'light'}
+				data-theme={this.state.darkMode === 'true' ? 'dark' : 'light'}
 				href="https://twitter.com/JohanGace?ref_src=twsrc%5Etfw"
 			>
 				Tweets
