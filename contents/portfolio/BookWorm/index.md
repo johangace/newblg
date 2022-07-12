@@ -1,7 +1,7 @@
 ---
 title: BookWorm
-description: A Book Exchange .
-date: 2022-4-5
+description: A  CrowdSourced Book Exchange Platform.
+date: 2022-5-5
 template: portfolio
 image: ./cover.png
 tags: Product Design | UX Design | Adobe XD | Material UI | AWS Amplify | React.js
