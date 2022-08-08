@@ -1,15 +1,15 @@
 ---
 title: BookWorm
-description: A  CrowdSourced Book Exchange Platform.
+description: A CrowdSourced Book Exchange Platform.
 date: 2022-5-5
 template: portfolio
 image: ./cover.png
-tags: Product Design | UX Design | Adobe XD | Material UI | AWS Amplify | React.js
+tags: Product Design & Development | UX Design | Adobe XD | Material UI | AWS Amplify | React.js
 ---
 
 
 
-<center><img alt="Niftsy App" src="/bookCovers.jpeg"></center>
+<center><img alt="Book Covers" src="/bookCovers.jpeg"></center>
 
 #### Project Details:
 
@@ -29,7 +29,6 @@ tags: Product Design | UX Design | Adobe XD | Material UI | AWS Amplify | React.
 ###### Summary: 
 
 BookWorm is a crowd sourced book exchange platform that allows free circulation of books amongst book lovers. This is a passion project that I have been ideating, designing and developing.
-
 
 <br/>
 <br/>
@@ -65,9 +64,9 @@ I conducted user interviews, which I then turned into empathy maps to better und
 ##### User Research Pain Points
 
 -  Community: Book Apps focus on bookselling and less in building a community of book lovers. 
--  
 - Environmental Impact: Users state they would like to discover more sustainable options for reading and reducing their carbon footprint. 
 - Book Availability: Millions of books stay unread in bookshelves while millions book readers have limited reading options in their bookshelves. 
+  
 <br/>
 <br/>
 
@@ -175,7 +174,7 @@ Navigate through the menu for full functionality. Follow the pointer to dicover 
 ###### Get a book Flow  - Jackie 
 <br/>
 <br/>
-  <iframe width="800" height="800" src="https://xd.adobe.com/embed/1014981b-80a3-4132-aa26-7e62b59b0a2c-4547/?fullscreen" frameborder="1" ></iframe>
+  <iframe width="500" height="500" src="https://xd.adobe.com/embed/1014981b-80a3-4132-aa26-7e62b59b0a2c-4547/?fullscreen" frameborder="1" ></iframe>
 
 </center>
 
@@ -197,7 +196,7 @@ Navigate through the menu for full functionality. Follow the pointer to dicover 
 
 ##### Scoping Out the Product in Asana
 I used the free Asana plan to keep track of the project in a Kanban Board 
-<center> <img alt="Asana" style= "width:500; height:auto;" src="/Asana.png"> </center>
+<center> <img alt="Asana" style= "width:400; height:auto;" src="/Asana.png"> </center>
 
 <br/>
 <br/>
@@ -210,6 +209,23 @@ I used the free Asana plan to keep track of the project in a Kanban Board
 <br/>
 
 
+
+##### Building the Backend with AWS Amplify 
+
+Why I chose AWS Amplify for my App:
+Keeping the future in mind Amplify will help scale the product as it grows.
+Out of the box Solutions: 
+- Authentication, 
+- Rapid API development 
+- Serverless
+- Fast App Deployment
+
+<center> <img alt="Amplify" style= "width:400; height:auto;" src="/amplify.png"> </center>
+
+
+<br/>
+<br/>
+
 ##### Building the Frontend 
 
 Using Material UI library kit in the design project, made it easy building components in React. 
@@ -217,6 +233,9 @@ Using Material UI library kit in the design project, made it easy building compo
 Use the same Components in both design and development
 Integrate Styled Components library to polish the UI
 Integrate the same theme structure in both design and frontend to make any color change super fast.
+
+<center> <img alt="Frontend" style= "width:400; height:auto;" src="/mui.jpeg"> </center>
+
 <br/>
 <br/>
 
@@ -226,7 +245,7 @@ After researching for checkout APIs I selected Stripe Checkout for a rapid Check
 - Customizable payment page.
 - Scalable solution.
 - User-friendly documentation.
-<center> <img alt="Stripe" style= "width:700; height:auto;" src="/stripe.png"> </center>
+<center> <img alt="Stripe" style= "width:500; height:auto;" src="/stripe.png"> </center>
 
 <br/>
 <br/>
@@ -265,7 +284,7 @@ Our target users shared that the app was intuitive and responded to the readerâ€
 ##### Product Demo
 
 <center>
-<iframe width="660" height="415" src="https://www.youtube.com/embed/i4m9xdB2yi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="400" height="315" src="https://www.youtube.com/embed/i4m9xdB2yi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 
