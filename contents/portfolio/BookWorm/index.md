@@ -11,7 +11,7 @@ tags: Product Design | UX Design | Adobe XD | Material UI | AWS Amplify | React.
 
 <center><img alt="Niftsy App" src="/bookCovers.jpeg"></center>
 
-###### Project Details:
+#### Project Details:
 
  **Timeframe:** 2 Months
 <br/>
@@ -28,26 +28,11 @@ tags: Product Design | UX Design | Adobe XD | Material UI | AWS Amplify | React.
 
 ###### Summary: 
 
-BookWorm is a crowd sourced book exchange platform that allows free circulation of books amongst book lovers. This is a passion project that I am working on both design and engineering. 
+BookWorm is a crowd sourced book exchange platform that allows free circulation of books amongst book lovers. This is a passion project that I have been ideating, designing and developing.
 
 
 <br/>
 <br/>
-
-##### Clickable Prototype  
-Navigate through the menu for full functionality. Follow the pointer to dicover the full user journey.
-
-
-<center>
-
-<br/>
-
-###### Get a book Flow  - Jackie 
-<br/>
-<br/>
-  <iframe width="1366" height="1705" src="https://xd.adobe.com/embed/1014981b-80a3-4132-aa26-7e62b59b0a2c-4547/?fullscreen" frameborder="0" allowfullscreen></iframe>
-
-</center>
 
 
 ###### The Problem: 
@@ -179,6 +164,21 @@ View the BookWorm’s high-fidelity prototype.
 <br/>
 
 
+##### Clickable Prototype  
+Navigate through the menu for full functionality. Follow the pointer to dicover the full user journey.
+
+
+<center>
+
+<br/>
+
+###### Get a book Flow  - Jackie 
+<br/>
+<br/>
+  <iframe width="800" height="800" src="https://xd.adobe.com/embed/1014981b-80a3-4132-aa26-7e62b59b0a2c-4547/?fullscreen" frameborder="1" ></iframe>
+
+</center>
+
 ##### Accesibility Consideration
 
  - Provided access to users who are vision impaired through adding alt text to images for screen readers.
@@ -186,6 +186,63 @@ View the BookWorm’s high-fidelity prototype.
  - Used detailed imagery for frames and art to help all users better understand the product.
 
 
+<br/>
+<br/>
+
+<br/>
+
+
+### Building the prototype in code
+
+
+##### Scoping Out the Product in Asana
+I used the free Asana plan to keep track of the project in a Kanban Board 
+<center> <img alt="Asana" style= "width:500; height:auto;" src="/Asana.png"> </center>
+
+<br/>
+<br/>
+
+##### Tech Stack
+   1. Setup AWS Amplify Project: Initialize Project & Setup Authentication 
+   2. Basic Functionality: Build the basic React App using Material UI and mock the backend.
+   3. Hi-Fi React Frontend and Harden the Backend: Use Styled Components to polish the UI and build the API on Amplify.
+<br/>
+<br/>
+
+
+##### Building the Frontend 
+
+Using Material UI library kit in the design project, made it easy building components in React. 
+
+Use the same Components in both design and development
+Integrate Styled Components library to polish the UI
+Integrate the same theme structure in both design and frontend to make any color change super fast.
+<br/>
+<br/>
+
+##### Checkout Flow
+
+After researching for checkout APIs I selected Stripe Checkout for a rapid Checkout process development.
+- Customizable payment page.
+- Scalable solution.
+- User-friendly documentation.
+<center> <img alt="Stripe" style= "width:700; height:auto;" src="/stripe.png"> </center>
+
+<br/>
+<br/>
+<br/>
+
+##### Integrating External APIs
+**Google Books API**
+- Get books by category so users can add for exchange
+-  Book Preview and Sell Link
+-  Major Bonus: I was able to fetch my custom shelves so I could edit Trending, Popular shelves in the home screen without building a separate UI.
+<br/>
+
+**ShipEngine API**
+- Use USPS Media Mail for Low Cost Shipments ($2.5)
+- Create Shipments
+- Automatically generate shipping labels
 <br/>
 <br/>
 
@@ -198,16 +255,23 @@ Our target users shared that the app was intuitive and responded to the reader�
 <br/>
 
 **What I learned:** 
-I learned that UI kits such as material UI allow for fast iterations from both UX UI and also Developer perspective especially in a small team. Being a one person team I wanted  to focus on the real needs of the user when coming up with design ideas and solutions in order to produce an MVP.
+- I learned that UI kits such as material UI allow for fast iterations from both UX UI and also Developer perspective especially in a small team.  
+- Being a one person team I wanted  to focus on the real needs of the user when coming up with design ideas and solutions in order to produce an MVP.
 
 <br/>
 <br/>
+
+
+##### Product Demo
+
+<center>
+<iframe width="660" height="415" src="https://www.youtube.com/embed/i4m9xdB2yi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 
 ##### Next steps 
-- Build a  Frontend React Application and integrate Google Books API. 
 - Work on the social aspect of the app adding Bookclubs and user interactions
-
-
+  
 <br/>
 <br/>
 
