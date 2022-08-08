@@ -74,7 +74,7 @@ I conducted user interviews, which I then turned into empathy maps to better und
 Jackie is a Sci-fi bookworm who loves to discuss and share books with her friends.
 While moving to her tiny apartment in  Boston she donated numerous.
 
-<center> <img alt="Persona" style= "width:500; height:auto;" src="/persona.png"> </center>
+<center> <img alt="Persona" style= "width:400; height:auto;" src="/persona.png"> </center>
 
 <br/>
 <br/>
@@ -84,7 +84,7 @@ While moving to her tiny apartment in  Boston she donated numerous.
 
 I created a user journey map of Jackie’s experience using the site to help identify possible pain points and improvement opportunities. 
 
-<center> <img alt="user-journey" style= "width:500; height:auto;" src="/userJourney.png"> </center>
+<center> <img alt="user-journey" style= "width:400; height:auto;" src="/userJourney.png"> </center>
 
 <br/>
 <br/>
@@ -95,7 +95,7 @@ I created a user journey map of Jackie’s experience using the site to help ide
 
 My goal here was to make strategic information architecture decisions that work for a rapid developed MVP and that are scalable in the future.
 
-<center> <img alt="user-flow" style= "width:500; height:auto;" src="/BookWormJam.png"> </center>
+<center> <img alt="user-flow" style= "width:400; height:auto;" src="/BookWormJam.png"> </center>
 
 <br/>
 <br/>
@@ -118,7 +118,7 @@ Moving from paper to digital wireframes made it easy to understand how the redes
 Prioritizing useful button locations and visual element placement on the home page was a key part of my strategy.
 
 <center >
-<img alt="paperWireframe" style= "width:500; height:auto;" src="/wireframe.png">
+<img alt="paperWireframe" style= "width:400; height:auto;" src="/wireframe.png">
  </center>
 
 
@@ -144,7 +144,7 @@ I included considerations for additional screen sizes in my mockups based on my 
 <br/>
 
 <center >
-<img alt="Key Mockups" style= "width:500; height:auto;" src="/cover.png">
+<img alt="Key Mockups" style= "width:400; height:auto;" src="/cover.png">
  </center>
 
 <br/>
@@ -157,7 +157,7 @@ My hi-fi prototype followed the same user flow as the lo-fi prototype, and inclu
 View the BookWorm’s high-fidelity prototype.
 
 
-<center> <img alt="Prototype" style= "width:700; height:auto;" src="/proto.png"> </center>
+<center> <img alt="Prototype" style= "width:400; height:auto;" src="/proto.png"> </center>
 
 <br/>
 <br/>
@@ -174,7 +174,7 @@ Navigate through the menu for full functionality. Follow the pointer to dicover 
 ###### Get a book Flow  - Jackie 
 <br/>
 <br/>
-  <iframe width="500" height="500" src="https://xd.adobe.com/embed/1014981b-80a3-4132-aa26-7e62b59b0a2c-4547/?fullscreen" frameborder="1" ></iframe>
+  <iframe width="400" height="400" src="https://xd.adobe.com/embed/1014981b-80a3-4132-aa26-7e62b59b0a2c-4547/?fullscreen" frameborder="1" ></iframe>
 
 </center>
 
@@ -245,7 +245,7 @@ After researching for checkout APIs I selected Stripe Checkout for a rapid Check
 - Customizable payment page.
 - Scalable solution.
 - User-friendly documentation.
-<center> <img alt="Stripe" style= "width:500; height:auto;" src="/stripe.png"> </center>
+<center> <img alt="Stripe" style= "width:400; height:auto;" src="/stripe.png"> </center>
 
 <br/>
 <br/>
